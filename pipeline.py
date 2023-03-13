@@ -8,10 +8,7 @@ from clingo.symbol import parse_term
 import pandas as pd
 import openai
 
-# Enter your GPT-3 API key here
-API_KEY = ''
-# [optional] you may also put your ORG key below
-ORG_KEY = ''
+from api_keys import API_KEY, ORG_KEY
 
 # clingo context used to define python functions in clingo
 class Context:
