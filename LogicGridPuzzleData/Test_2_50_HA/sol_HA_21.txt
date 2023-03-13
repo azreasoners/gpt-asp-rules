@@ -1,0 +1,5 @@
+Prices	Dinosaurs	Ages
+$500	pilodontus	78 million
+$750	mirasaurus	90 million
+$1000	gigasaurus	72 million
+$1250	rotosaurus	75 million

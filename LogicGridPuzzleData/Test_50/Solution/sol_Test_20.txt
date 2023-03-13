@@ -1,0 +1,5 @@
+Prices	Players	Years
+$125	Mike Morales	1987
+$175	Neddy Norris	1999
+$225	Finn Freeman	1974
+$275	Opie Oliver	2012

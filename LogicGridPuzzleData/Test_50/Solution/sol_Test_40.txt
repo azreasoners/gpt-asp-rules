@@ -1,0 +1,5 @@
+customers	prices	cheeses
+yolanda	$2	cheddar
+lula	$3	havarti 
+ronda	$5	muenster 
+sue	$4	swiss

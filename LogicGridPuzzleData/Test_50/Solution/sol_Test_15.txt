@@ -1,0 +1,5 @@
+Prices	Gems	Claims
+$790	aquamarine	Osborne
+$800	blue topaz	Collins
+$810	tourmaline	Knox
+$820	rhodolite	Underwood

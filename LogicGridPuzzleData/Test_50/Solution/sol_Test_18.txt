@@ -1,0 +1,5 @@
+Genes	Bacteria	Doctors
+250	B. mangeris	Ortiz
+500	D. forcilitis	Nielsen
+750	E. carolinus	Jordan
+1000	P. wellington	Trujillo

@@ -1,0 +1,43 @@
+A group of train conductors has just received their individual assignments for next week's schedule. Using only the clues provided, match each conductor to his train, scheduled day, and departure and arrival stations.
+::days
+June 10
+June 11
+June 12
+June 13
+::names
+Francis
+Greg
+Ira
+Oscar
+::departures
+Buttonwillow
+Coulterville
+Indio
+Manson
+1. Francis will depart from Manson.
+2. The conductor working on June 12 is either the conductor departing from Buttonwillow or Greg.
+3. Ira will leave 1 day before the conductor departing from Manson.
+4. The person departing from Buttonwillow will leave 1 day before the conductor departing from Indio.
+###
+1 day,2,5,2
+1 day,3,9,2
+Buttonwillow,1,12,6
+Buttonwillow,3,5,6
+Francis,0,1,4
+Greg,1,14,4
+Indio,3,15,6
+Ira,2,1,4
+June_12,1,5,2
+Manson,0,5,6
+Manson,2,11,6
+conductor,1,2,4
+conductor,1,9,4
+conductor,2,8,4
+conductor,3,12,4
+person,3,2,4
+
+#######
+sameGroup(0,1,0,5)
+sameGroup(1,2,1,5)@eitherOr12(1,2,1,9,14)@sameGroup(1,9,1,12)
+negDiff(2,1,2,8,2,5)@sameGroup(2,8,2,11)
+sameGroup(3,2,3,5)@negDiff(3,2,3,12,3,9)@sameGroup(3,12,3,15)

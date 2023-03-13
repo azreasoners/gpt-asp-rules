@@ -1,0 +1,53 @@
+Abe and Edna's children have a set list of rooms that must be cleaned every Sunday at specific times. Using only the clues below, match each child to his or her assigned room and time, and determine how much allowance each is given as a result.
+::children
+Glenn
+Henrietta
+Olivia
+Willie
+::times
+8:00am
+9:00am
+10:00am
+11:00am
+::rooms
+dining room
+laundry room
+living room
+mud room
+1. Henrietta's task starts 2 hours after Glenn's job.
+2. Glenn's task is the dining room.
+3. Glenn's chore starts 1 hour after the mud room assignment.
+4. Henrietta's task is the living room.
+5. The mud room assignment starts sometime before Willie's assignment.
+###
+1 hour,2,6,4
+2 hours,0,6,4
+Glenn,0,8,2
+Glenn,1,1,2
+Glenn,2,1,2
+Henrietta,0,1,2
+Henrietta,3,1,2
+Willie,4,7,2
+assignment,2,10,7
+assignment,4,3,7
+assignment,4,9,7
+chore,2,3,7
+dining_room,1,6,6
+job,0,10,7
+living_room,3,6,6
+mud_room,2,9,6
+mud_room,4,2,6
+sometime,4,5,4
+starts,0,4,7
+starts,2,4,7
+starts,4,4,7
+task,0,3,7
+task,1,3,7
+task,3,3,7
+
+#######
+posDiff(0,1,0,8,0,6)
+sameGroup(1,1,1,6)
+posDiff(2,1,2,9,2,6)
+sameGroup(3,1,3,6)
+lessThan(4,2,4,7,4,5)

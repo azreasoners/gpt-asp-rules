@@ -1,0 +1,5 @@
+Gold Medals	Countries	Silver Medals
+1	Zimbabwe	2
+2	Dominica	6
+3	Jordan	5
+4	Venezuela	8

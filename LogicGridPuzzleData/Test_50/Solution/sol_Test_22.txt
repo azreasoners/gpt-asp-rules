@@ -1,0 +1,5 @@
+Prices	Winners	Butterflies
+$45	Alejandro	grayling
+$60	Irma	emperor
+$75	Phillip	peacock
+$90	Faye	atlas

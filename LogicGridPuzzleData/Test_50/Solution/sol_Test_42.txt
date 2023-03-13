@@ -1,0 +1,5 @@
+names	scholarships	majors
+delores	$30000	biology
+wilma	$35000	mathematics
+anna	$25000	physics
+yvonne	$40000	theology)

@@ -1,0 +1,49 @@
+Box Office Weekly is putting together its latest blog entry covering this past weekend's movie premieres. Using only the clues below, help them with their research by matching each new movie to its director, and determining how much money each film made in its opening weekend, and how many theaters it showed in.
+::earnings
+2 million
+5 million
+8 million
+11 million
+::movies
+Amerigo
+Fast and Dead
+Let Me Out
+What a World
+::directors
+Jim Johnson
+Kenneth Key
+Linda Lynch
+Micah Moreno
+1. The movie that grossed 5 million was directed by Kenneth Key.
+2. Of What a World and Amerigo, one made 2 million and the other was directed by Jim Johnson.
+3. The film directed by Kenneth Key made 3 million less than Amerigo.
+4. Fast and Dead was directed by Kenneth Key.
+5. Let Me Out is either the movie directed by Linda Lynch or the movie that grossed 5 million.
+###
+2_million,1,8,2
+3 million,2,8,2
+5_million,0,5,2
+5_million,4,14,2
+Amerigo,1,4,4
+Amerigo,2,11,4
+Fast_and_Dead,3,1,4
+Jim_Johnson,1,15,6
+Kenneth_Key,0,9,6
+Kenneth_Key,2,5,6
+Kenneth_Key,3,5,6
+Let_Me_Out,4,1,4
+Linda_Lynch,4,8,6
+What_a_World,1,2,4
+film,2,2,4
+movie,0,2,4
+movie,4,11,4
+movie,4,5,4
+one,1,6,4
+other,1,11,4
+
+#######
+sameGroup(0,2,0,9)@sameGroup(0,2,0,5)
+sameGroup(1,11,1,15)@sameGroup(1,6,1,8)@referent22(1,2,1,4,1,6,1,11)
+sameGroup(2,2,2,5)@negDiff(2,2,2,11,2,8)
+sameGroup(3,1,3,5)
+sameGroup(4,5,4,8)@sameGroup(4,11,4,14)@eitherOr12(4,1,4,5,4,11)

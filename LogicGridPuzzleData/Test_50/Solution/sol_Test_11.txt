@@ -1,0 +1,5 @@
+Days	Companies	Positions
+August 20th	Laneplex	copywriter
+August 21st	Sancode	janitor
+August 22nd	Canway	web developer
+August 23rd	Haytouch	sales rep

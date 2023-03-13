@@ -1,0 +1,22 @@
+Porter is a "tiny home" enthusiast - he builds small, portable homes and sells them to others interested in the movement. Using only the clues below, determine the size and cost of each of his customer's tiny homes, as well as the city it will be delivered to.
+::customers
+Gillespie
+Kirby
+Pratt
+Whitehead
+::sq footage
+95 sq ft			
+110 sq ft			
+125 sq ft			
+140 sq ft
+::prices
+$25,000			
+$29,000			
+$35,000			
+$36,000
+
+1. The $35,000 structure is 15 sq ft smaller than the $29,000 home.
+2. The Whitehead's structure sold for $29,000.
+3. The Kirby's house is 15 sq ft smaller than the $35,000 house.
+4. The $36,000 house is somewhat smaller than the Gillespie's structure.
+5. Of the 110 sq ft home and the 140 sq ft home, one sold for $35,000 and the other is for the Gillespies.

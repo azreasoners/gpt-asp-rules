@@ -1,0 +1,22 @@
+The California condor is one of the world's largest and most endangered birds. Several conservation programs have been raising and releasing condors into the wild in an effort to boost their numbers. Using only the clues that follow, determine the age and wingspan of each of the most recently released condors, and determine the location in which each was set free.
+::names
+Angel
+Charlie
+Gracie
+Merlin
+::wingspans
+102 inches			
+106 inches			
+110 inches			
+114 inches
+::ages
+8			
+9			
+10			
+11
+
+
+1. Charlie is 9 years old.
+2. Gracie has a wingspan of 114 inches.
+3. The 11-year-old bird has a wingspan 8 inches shorter than Charlie.
+4. Angel is either the 8-year-old bird or the bird with a wingspan of 114 inches.

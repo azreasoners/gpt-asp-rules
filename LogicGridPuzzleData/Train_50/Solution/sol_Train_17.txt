@@ -1,0 +1,5 @@
+diplomats	months	durations
+Riggs	April	2 day
+Vasquez	March	6 day
+Fitzgerald	January	8 day
+Howell	February	9 day

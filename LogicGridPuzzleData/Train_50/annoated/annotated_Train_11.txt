@@ -1,0 +1,54 @@
+Howie, a professional nature guide, is taking a group of campers on a one-week backpacking trip through the Gros Ventre Wilderness in Wyoming. Using only the clues below, help Howie match each camper to their bag by determining the size (in liters), manufacturer and color of each.
+::packsize
+25 liter
+30 liter
+35 liter
+40 liter
+::brands
+Adironda
+Grennel
+Naturba
+Travelore
+::names
+Arthur
+Eugene
+Natasha
+Olga
+1. Arthur's pack is either the 25 liter pack or the Adironda pack.
+2. Eugene's pack is made by Adironda.
+3. Natasha's pack is either the 40 liter pack or the Travelore pack.
+4. Natasha's pack is 10 liters larger than the Grennel pack.
+5. The 30 liter pack is made by Grennel.
+###
+10 liters,3,6,2
+25_liter,0,7,2
+30_liter,4,2,2
+40_liter,2,7,2
+Adironda,0,11,4
+Adironda,1,7,4
+Arthur,0,1,6
+Eugene,1,1,6
+Grennel,3,10,4
+Grennel,4,7,4
+Natasha,2,1,6
+Natasha,3,1,6
+Travelore,2,11,4
+made,1,5,7
+made,4,5,7
+pack,0,12,4
+pack,0,3,4
+pack,0,8,4
+pack,1,3,4
+pack,2,12,4
+pack,2,3,4
+pack,2,8,4
+pack,3,11,4
+pack,3,3,4
+pack,4,3,4
+
+#######
+sameGroup(0,1,0,3)@sameGroup(0,7,0,8)@referent(0,11,0,12)@eitherOr12(0,1,0,11,0,7)
+sameGroup(1,1,1,3)@sameGroup(1,3,1,7)
+sameGroup(2,1,2,3)@sameGroup(2,7,2,8)@referent(2,11,2,12)@eitherOr12(2,1,2,11,2,7)
+sameGroup(3,1,3,3)@referent(3,10,3,11)@posDiff(3,3,3,11,3,6)
+sameGroup(4,2,4,3)@sameGroup(4,3,4,7)

@@ -1,0 +1,5 @@
+Points	Names	Orders
+181 points	Hannah	6th
+184 points	Kara	2nd
+187 points	Fannie	4th
+190 points	Clara	7th

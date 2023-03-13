@@ -1,0 +1,50 @@
+A prize has been announced, awarding $50 million to the first privately-owned company to successfully send a probe to Neptune. Using only the clues that follow, match each company to its rocket and home country, and determine the month in which it will launch its probe.
+::names
+Cornick
+Dreadco
+Foltron
+Worul
+::months
+January
+February
+March
+April
+::companies
+Permias
+Rubicorp
+Techtrin
+Ubersplore
+1. The Worul, the rocket that will launch in February and the rocket that will launch in January are all different rockets.
+2. The Dreadco is made by Ubersplore.
+3. The rocket developed by Permias will launch 1 month before the Foltron.
+4. The rocket that will launch in January is made by Techtrin.
+###
+1 month,2,9,4
+Dreadco,1,2,2
+February,0,10,4
+Foltron,2,12,2
+January,0,18,4
+January,3,7,4
+Permias,2,5,6
+Techtrin,3,11,6
+Ubersplore,1,6,6
+Worul,0,2,2
+developed,2,3,7
+different,0,21,7
+launch,0,16,7
+launch,0,8,7
+launch,2,7,7
+launch,3,5,7
+made,1,4,7
+made,3,9,7
+rocket,0,13,7
+rocket,0,5,7
+rocket,2,2,7
+rocket,3,2,7
+rockets,0,22,7
+
+#######
+diffGroup(0,2,0,10)@diffGroup(0,2,0,18)@diffGroup(0,10,0,18)
+sameGroup(1,2,1,6)
+negDiff(2,5,2,12,2,9)
+sameGroup(3,7,3,11)

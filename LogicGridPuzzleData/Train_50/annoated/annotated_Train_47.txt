@@ -1,0 +1,56 @@
+Winnetonka County's parks department has decided to erect markers at each of the oldest-known trees in the county. Help them match each tree to its height, age, and the forest in which it resides.
+::height
+144 feet
+147 feet
+150 feet
+153 feet
+::trees
+Evan's Fir
+Old Jarvis
+Nolan's Pine
+Zeke's Spruce
+::ages
+79
+80
+96
+99
+1. Of the 147 feet tree and the 80 years old tree, one is Nolan's Pine and the other is Zeke's Spruce.
+2. The 96 years old tree is taller than Zeke's Spruce.
+3. Of Evan's Fir and the 153 feet tree, one is 79 years old and the other is 99 years old.
+4. The 96 years old tree is 3 feet shorter than the 79 years old tree.
+###
+147_feet,0,3,2
+153_feet,2,5,2
+3 feet,3,8,2
+79 old,3,14,6
+79 years,2,11,6
+80 years,0,8,6
+96 old,1,4,6
+96 old,3,4,6
+99 years,2,18,6
+Evan_s_Fir,2,2,4
+Nolan_s_Pine,0,14,4
+Zeke_s_Spruce,0,19,4
+Zeke_s_Spruce,1,9,4
+old,0,9,7
+old,2,12,7
+old,2,19,7
+one,0,12,4
+one,2,8,4
+other,0,17,4
+other,2,15,4
+tree,0,10,4
+tree,0,4,4
+tree,1,5,4
+tree,2,6,4
+tree,3,15,4
+tree,3,5,4
+years,1,3,6
+years,3,13,6
+years,3,3,6
+
+#######
+sameGroup(0,3,0,4)@sameGroup(0,8,0,10)@referent(0,12,0,14)@referent(0,17,0,19)@referent22(0,3,0,8,0,12,0,17)
+referent(1,3,1,4)@sameGroup(1,4,1,5)@greaterThan(1,5,1,9,X,X)
+sameGroup(2,5,2,6)@sameGroup(2,15,2,18)@sameGroup(2,8,2,11)@referent22(2,2,2,5,2,8,2,15)
+referent(3,3,3,4)@sameGroup(3,4,3,5)@referent(3,13,3,14)@sameGroup(3,14,3,15)@negDiff(3,5,3,15,3,8)

@@ -1,0 +1,5 @@
+Capacities	Arenas	Sports
+110	Underwood	soccer
+150	Vazquez	football
+190	Gentry	lacrosse
+230	Young	basketball

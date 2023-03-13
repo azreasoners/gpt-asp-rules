@@ -1,0 +1,22 @@
+Lou's Bar and Grill held a friendly darts tournament this week. Using only the clues that follow, match each player to his score, hometown and dart color.
+::players
+Alton
+Evan
+Greg
+Jeffrey
+::scores
+41			
+48			
+55			
+62
+::colors
+green			
+red			
+white			
+yellow
+
+1. Greg threw the red darts.
+2. Alton scored 7 points higher than Evan.
+3. The contestant who threw the yellow darts scored somewhat higher than the player who threw the white darts.
+4. The player who scored 48 points threw the yellow darts.
+5. Greg scored 7 points higher than Jeffrey.

@@ -1,0 +1,22 @@
+Salvatore is a professional wildlife photographer who has sold a number of his shots recently to nature magazines. Using only the clues that follow, match each shoot to the month in which it took place, the animal it featured, the magazine that bought it and the price that was paid.
+::animals
+giant tortoise
+orangutan
+polar bear
+white rhino
+::months
+March			
+April			
+May			
+June
+::magazines
+Animal Science			
+Earth Aware			
+Nature Monthly			
+Wildzone
+
+1. The photo published by Nature Monthly was taken 2 months after the photo published by Earth Aware.
+2. The shot of the white rhino was either the photo published by Earth Aware or the photo published by Animal Science.
+3. The photo of the polar bear was taken sometime before the shot of the white rhino.
+4. The photo taken in April was published by Animal Science.
+5. The photo of the giant tortoise was taken in June.

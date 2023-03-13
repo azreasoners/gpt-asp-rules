@@ -1,0 +1,64 @@
+Professor Barrie is an impact crater specialist at the University of Dusseldorf. Help him with his research by matching each of the listed impact craters to its size (diameter in meters), geological period, and the country in which it was found.
+::craters
+Cersay
+Moriwa
+Ormagh
+Vorckin
+::diameters
+100 meters
+125 meters
+150 meters
+175 meters
+::periods
+Jurassic
+Ordovician
+Permian
+Triassic
+1. The Vorckin impact crater is 125 meters wide.
+2. The 150 meters wide one is either the Ordovician impact crater or the Permian impact crater.
+3. The Ordovician impact crater is 25 meters wider than the Jurassic impact crater.
+4. The Triassic impact crater is either the Ormagh impact crater or the 150 meters wide one.
+5. The Cersay impact crater was formed during the Jurassic period.
+###
+125_meters,0,6,4
+150_meters,1,2,4
+150_meters,3,13,4
+25 meters,2,7,4
+Cersay,4,2,2
+Jurassic,2,11,6
+Jurassic,4,9,6
+Ordovician,1,8,6
+Ordovician,2,2,6
+Ormagh,3,8,2
+Permian,1,13,6
+Triassic,3,2,6
+Vorckin,0,2,2
+crater,0,4,2
+crater,1,10,2
+crater,1,15,2
+crater,2,13,2
+crater,2,4,2
+crater,3,10,2
+crater,3,4,2
+crater,4,4,2
+impact,0,3,7
+impact,1,14,7
+impact,1,9,7
+impact,2,12,7
+impact,2,3,7
+impact,3,3,7
+impact,3,9,7
+impact,4,3,7
+one,1,4,6
+one,3,15,6
+period,4,10,6
+wide,0,7,7
+wide,1,3,7
+wide,3,14,7
+
+#######
+referent(0,2,0,4)@sameGroup(0,4,0,6)
+sameGroup(1,2,1,4)@sameGroup(1,13,1,15)@sameGroup(1,8,1,10)@eitherOr12(1,2,1,13,1,8)
+sameGroup(2,2,2,4)@sameGroup(2,11,2,13)@posDiff(2,4,2,13,2,7)
+sameGroup(3,2,3,4)@sameGroup(3,13,3,15)@referent(3,8,3,10)@eitherOr12(3,2,3,13,3,8)
+referent(4,2,4,4)@referent(4,9,4,10)@sameGroup(4,4,4,10)

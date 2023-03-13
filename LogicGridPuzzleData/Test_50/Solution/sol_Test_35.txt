@@ -1,0 +1,4 @@
+edmund	$5	cream soda 
+homer	$4	iced tea 
+angela	$7	root beer 
+irene	$6	water

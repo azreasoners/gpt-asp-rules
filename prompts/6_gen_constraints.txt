@@ -1,0 +1,97 @@
+Consider the constraint in the following form
+<C1>; <C2>; ...; <Cm> :- <L1>, <L2>, ..., <Ln>.
+which says that if the conjunction "<L1> and <L2> and ... and <Ln>" is true, then the disjunction of comparisons "<C1> or <C2> or ... or <Cm>" must be true.
+
+One can also add a restriction that "exactly k of <C1>, <C2>, ..., <Cm> is true" by using the following form
+{<C1>; <C2>; ...; <Cm>}=k :- <L1>, <L2>, ..., <Ln>.
+
+Given a problem, extract all constraints from the clues in the problem using only the provided constants and predicates.
+
+Problem 1:
+"Against the Grain" offers hand-made wooden furniture at reasonable prices. Each item is made by an in-house employee. Using only the clues that follow, match each item to the employee who crafted it, and determine its price and the type of wood used to make it. Remember, as with all grid-based logic puzzles, no option in any category will ever be used more than once.
+1. Bonita's piece costs $325.
+2. The item made of poplar costs more than Yvette's piece.
+3. Tabitha's item costs 50 dollars less than the piece made of sandalwood.
+4. The $275 item is either the piece made of ash or Yvette's item.
+
+Constants:
+employee: "Bonita"; "Yvette"; "Tabitha".
+price: 225; 275; 325.
+wood_type: "ash"; "poplar"; "sandalwood".
+
+Predicates:
+% The categories include employee, price, and wood_type. We use different variables E, P, and W to represent employee, price, and wood_type.
+% We match an employee E with price P and wood type W, where E belongs to employee, P belongs to price, and W belongs to wood_type.
+match(E, P, W)
+
+Constraints:
+% No option in any category will ever be used more than once.
+{E1=E2; P1=P2; W1=W2}=0 :- match(E1,P1,W1), match(E2,P2,W2), (E1,P1,W1)!=(E2,P2,W2).
+
+% 1. Bonita's piece costs $325.
+P=325 :- match(E,P,W), E="Bonita".
+
+% 2. The item made of poplar costs more than Yvette's piece.
+P1>P2 :- match(E1,P1,W1), match(E2,P2,W2), W1="poplar", E2="Yvette".
+
+% 3. Tabitha's item costs 50 dollars less than the piece made of sandalwood.
+P1=P2-50 :- match(E1,P1,W1), match(E2,P2,W2), E1="Tabitha", W2="sandalwood".
+
+% 4. The $275 item is either the piece made of ash or Yvette's item.
+{W="ash"; E="Yvette"}=1 :- match(E,P,W), P=275.
+
+Problem 2:
+The Winter Olympics have just wrapped up in Norway. Using only the clues that follow, determine the number of gold, silver and bronze medals won by each country. Remember, as with all grid-based logic puzzles, no option in any category will ever be used more than once.
+1. The four teams are the team from Bolivia, the team that won 3 gold medals, the team that won 6 silver medals, and the team from Argentina.
+2. The team from Oman and the team that won 10 silver medals are different.
+3. The team from Oman finished with 2 gold medals or finished with 1 gold medal.
+5. The squad that won 3 gold medals, the squad that won 6 silver medals and the squad from Bolivia were all different teams.
+6. Neither the team from Argentina nor the squad that won 2 silver medals is the squad that won 4 gold medals.
+8. The squad that won 2 gold medals is either the squad that won 6 silver medals or the team from Grenada.
+
+Constants:
+country: "Argentina"; "Bolivia"; "Grenada"; "Oman".
+silver_medals: 2; 6; 10; 11.
+gold_medals: 1; 2; 3; 4.
+
+Predicates:
+% The categories include country, silver_medals, and gold_medals. We use different variables C, S, and G to represent country, silver_medals, and gold_medals.
+% We assign a country C with silver medals S and gold medals G, where C belongs to country, S belongs to silver_medals, and G belongs to gold_medals.
+assign(C, S, G)
+
+Constraints:
+% No option in any category will ever be used more than once.
+{C1=C2; S1=S2; G1=G2}=0 :- assign(C1,S1,G1), assign(C2,S2,G2), (C1,S1,G1)!=(C2,S2,G2).
+
+% 1. The four teams are the team from Bolivia, the team that won 3 gold medals, the team that won 6 silver medals, and the team from Argentina.
+{C="Bolivia"; G=3; S=6; C="Argentina"}=1 :- assign(C,S,G).
+
+% 2. The team from Oman and the team that won 10 silver medals are different.
+C1!=C2 :- assign(C1,S1,G1), assign(C2,S2,G2), C1="Oman", S2=10.
+
+% 3. The team from Oman finished with 2 gold medals or finished with 1 gold medal.
+{G=2; G=1}=1 :- assign(C,S,G), C="Oman".
+
+% 5. The squad that won 3 gold medals, the squad that won 6 silver medals and the squad from Bolivia were all different teams.
+C1!=C2 :- assign(C1,S1,G1), assign(C2,S2,G2), assign(C3,S3,G3), G1=3, S2=6, C3="Bolivia".
+C2!=C3 :- assign(C1,S1,G1), assign(C2,S2,G2), assign(C3,S3,G3), G1=3, S2=6, C3="Bolivia".
+C1!=C3 :- assign(C1,S1,G1), assign(C2,S2,G2), assign(C3,S3,G3), G1=3, S2=6, C3="Bolivia".
+
+% 6. Neither the team from Argentina nor the squad that won 2 silver medals is the squad that won 4 gold medals.
+{C="Argentina"; S=2}=0 :- assign(C,S,G), G=4.
+C1!=C2 :- assign(C1,S1,G1), assign(C2,S2,G2), C1="Argentina", S2=2.
+
+% 8. The squad that won 2 gold medals is either the squad that won 6 silver medals or the team from Grenada.
+{S=6; C="Grenada"}=1 :- assign(C,S,G), G=2.
+
+Problem 3:
+<STORY>
+<CONSTRAINTS>
+
+Constants:
+<CONSTANTS>
+
+Predicates:
+<PREDICATES>
+
+Constraints:

@@ -1,0 +1,22 @@
+Every year Simon takes an "adventure holiday" with a friend to some new location within the United States. Determine each trip's activity, state and year, as well as the friend Simon went with.
+::friends
+Andy
+Bill
+Isabel
+Yvonne
+::years
+2001			
+2002			
+2003			
+2004
+::activities
+cycling			
+hunting			
+kayaking			
+skydiving
+
+1. The 2004 holiday is either the skydiving holiday or the holiday with Yvonne.
+2. Of the kayaking holiday and the trip with Isabel, one was in 2001 and the other was in 2004.
+3. The vacation with Andy was after the trip with Yvonne.
+4. The holiday with Bill was 1 year after the trip with Andy.
+5. The cycling trip was before the hunting vacation.

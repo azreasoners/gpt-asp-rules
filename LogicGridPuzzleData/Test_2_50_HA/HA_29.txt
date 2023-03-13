@@ -1,0 +1,22 @@
+Rowena, the head librarian at the Juniper Hills Public Library, has to make several calls today to inquire about overdue library books. Using only the clues that follow, match each book to its due date and borrower, and determine the author of each title.
+::borrowers
+Aimee
+Ebony
+Jimmy
+Rosa
+::due dates
+September 1			
+September 8			
+September 15			
+September 22
+::titles
+Dancing Well			
+Frogs of Iowa			
+Heaven's Seal			
+Time to Burn		
+
+1. The title due on September 22 is either Rosa's book or "Dancing Well".
+2. Ebony's book was due 1 week after Rosa's book.
+3. Aimee's book was due on September 15.
+4. Ebony's book was "Heaven's Seal".
+5. "Heaven's Seal" was due 1 week after "Frogs of Iowa".

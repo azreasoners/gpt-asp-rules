@@ -1,0 +1,23 @@
+A group of train conductors has just received their individual assignments for next week's schedule. Using only the clues provided, match each conductor to his train, scheduled day, and departure and arrival stations.
+::names
+Francis
+Luke
+Roderick
+Vernon
+::days
+June 10			
+June 11			
+June 12			
+June 13	
+::departures
+Hardwick			
+Indio			
+Kent			
+Leland
+
+
+1. The four conductors are Roderick, the conductor working on June 10, the person departing from Leland and the person departing from Indio.
+2. The person working on June 13 will depart from Hardwick.
+3. The conductor working on June 12 is either the conductor departing from Indio or Roderick.
+4. Vernon is either the person working on June 11 or the conductor working on June 13.
+5. Francis will leave sometime before the conductor departing from Leland.

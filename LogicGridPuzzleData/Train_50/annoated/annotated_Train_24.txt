@@ -1,0 +1,44 @@
+Several marathon runners decided to carb-load at Jimmy's Italian Restaurant on the night before the big run. Match each runner to the type of pasta and sauce they ordered and the total price of their entree.
+::prices
+$6
+$7
+$8
+$9
+::runners
+Florence
+Margie
+Suzanne
+Velma
+::pastas
+fettuccine
+fusilli
+spaghetti
+taglioni
+1. Suzanne paid less than Margie.
+2. Margie paid $7.
+3. The competitor who ordered spaghetti paid 2 dollars more than the competitor who ordered taglioni.
+4. Of the runner who paid $9 and the contestant who ordered fettuccine, one was Margie and the other was Velma.
+###
+2 dollars,2,8,7
+7 $,1,3,6
+9 $,3,6,6
+Margie,0,5,6
+Margie,1,1,7
+Margie,3,17,6
+Suzanne,0,1,6
+Velma,3,22,7
+competitor,2,12,2
+competitor,2,2,6
+contestant,3,10,2
+fettuccine,3,13,7
+one,3,15,6
+other,3,20,6
+runner,3,3,6
+spaghetti,2,5,6
+taglioni,2,15,7
+
+#######
+lessThan(0,1,0,5,X,X)@lessThan(0,3,0,5,X,X)
+referent(1,2,1,3)
+sameGroup(2,5,2,6)@sameGroup(2,11,2,12)@greaterThan(2,6,2,12,X,X)
+sameGroup(3,16,3,17)@sameGroup(3,2,3,3)@referent(3,15,3,17)@sameGroup(3,15,3,16)@sameGroup(3,9,3,12)@referent(3,9,3,10)@sameGroup(3,10,3,12)@referent(3,3,3,6)@referent(3,20,3,21)@referent22(3,2,3,9,3,15,3,20)

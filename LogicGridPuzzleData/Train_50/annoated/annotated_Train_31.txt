@@ -1,0 +1,64 @@
+The state fair dancing competition winners have just been announced! Match each dancer to her chosen dance style and final score, and determine the order in which each performed.
+::names
+Clara
+Fannie
+Hannah
+Kara
+::points
+181 points
+184 points
+187 points
+190 points
+::orders
+second
+fourth
+sixth
+seventh
+1. The person who danced seventh scored somewhat higher than the dancer who performed fourth.
+2. The dancer who performed second scored 3 points lower than the dancer who performed fourth.
+3. Kara scored somewhat lower than Fannie.
+4. Hannah was either the dancer who performed fourth or the person who danced sixth.
+5. Of Clara and Kara, one scored 184 points and the other danced seventh.
+###
+184_points,4,8,4
+3 points,1,8,4
+Clara,4,2,2
+Fannie,2,6,2
+Hannah,3,1,2
+Kara,2,1,2
+Kara,4,4,2
+danced,0,4,7
+danced,3,13,7
+danced,4,12,7
+dancer,0,11,2
+dancer,1,12,2
+dancer,1,2,2
+dancer,3,5,2
+fourth,0,14,6
+fourth,1,15,6
+fourth,3,8,6
+one,4,6,2
+other,4,11,2
+performed,0,13,7
+performed,1,14,7
+performed,1,4,7
+performed,3,7,7
+person,0,2,2
+person,3,11,2
+scored,0,6,7
+scored,1,6,7
+scored,2,2,7
+scored,4,7,7
+second,1,5,6
+seventh,0,5,6
+seventh,4,13,6
+sixth,3,14,6
+somewhat,0,7,4
+somewhat,2,3,4
+
+#######
+sameGroup(0,2,0,5)@sameGroup(0,11,0,14)@greaterThan(0,2,0,11,0,7)
+sameGroup(1,2,1,5)@sameGroup(1,12,1,15)@negDiff(1,2,1,12,1,8)
+lessThan(2,1,2,6,2,3)
+sameGroup(3,5,3,8)@sameGroup(3,11,3,14)@eitherOr12(3,1,3,5,3,11)
+sameGroup(4,11,4,13)@referent22(4,2,4,4,4,6,4,11)@sameGroup(4,6,4,8)

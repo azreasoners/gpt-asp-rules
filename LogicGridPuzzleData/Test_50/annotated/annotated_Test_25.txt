@@ -1,0 +1,50 @@
+Help Jackie research her article on the oldest living people in America by matching each centenarian to their age, hometown and state.
+::ages
+109 years
+110 years
+111 years
+112 years
+::names
+Arlene
+Doris
+Floyd
+Herbert
+::states
+Connecticut
+Missouri
+New Mexico
+Texas
+1. The person who is 110 years old is a native of Connecticut.
+2. Of Arlene and the Texas native, one is 110 years old and the other is 109 years old.
+3. Herbert is 1 year younger than Doris.
+4. The person who is 112 years old is either Herbert or the New Mexico native.
+###
+1 year,2,4,2
+109_years,1,16,2
+110_years,0,5,2
+110_years,1,10,2
+112_years,3,5,2
+Arlene,1,2,4
+Connecticut,0,11,6
+Doris,2,7,4
+Herbert,2,1,4
+Herbert,3,9,4
+New_Mexico,3,12,6
+Texas,1,5,6
+native,0,9,7
+native,1,6,7
+native,3,13,7
+old,0,6,7
+old,1,11,7
+old,1,17,7
+old,3,6,7
+one,1,8,4
+other,1,14,4
+person,0,2,4
+person,3,2,4
+
+#######
+sameGroup(0,2,0,5)@sameGroup(0,2,0,11)
+sameGroup(1,14,1,16)@sameGroup(1,8,1,10)@referent22(1,2,1,5,1,8,1,14)
+negDiff(2,1,2,7,2,4)
+sameGroup(3,2,3,5)@eitherOr12(3,2,3,9,3,12)

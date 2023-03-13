@@ -1,0 +1,48 @@
+The Women's Boxing Federation has just released its list of top-ranked female boxers for the year. Using only the clues below, match each boxer to her number of wins and losses and determine the city where she lives and trains.
+::wins
+24
+27
+30
+33
+::boxers
+Edna Easton
+Irma
+Jane
+Sonia
+::losses
+2
+4
+8
+12
+1. The woman with 2 losses has 3 more wins than the boxer with 8 losses.
+2. Edna Easton has 6 more wins than Irma.
+3. Of the boxer with 33 wins and the fighter with 27 wins, one is Sonia and the other has 12 losses.
+4. The boxer with 12 losses is either the fighter with 33 wins or Jane.
+###
+12 losses,2,22,6
+12 losses,3,5,6
+2 losses,0,5,6
+27 wins,2,12,2
+3 wins,0,9,2
+33 wins,2,6,2
+33 wins,3,12,2
+6 wins,1,5,2
+8 losses,0,15,6
+Edna_Easton,1,1,4
+Irma,1,7,4
+Jane,3,14,4
+Sonia,2,16,4
+boxer,0,12,4
+boxer,2,3,4
+boxer,3,2,4
+fighter,2,9,4
+fighter,3,9,4
+one,2,14,4
+other,2,19,4
+woman,0,2,4
+
+#######
+sameGroup(0,2,0,5)@sameGroup(0,12,0,15)@posDiff(0,2,0,12,0,9)
+posDiff(1,1,1,7,1,5)
+sameGroup(2,3,2,6)@sameGroup(2,9,2,12)@referent(2,14,2,16)@sameGroup(2,19,2,22)@referent22(2,2,2,12,2,14,2,19)
+sameGroup(3,2,3,5)@sameGroup(3,9,3,12)@eitherOr12(3,2,3,9,3,14)

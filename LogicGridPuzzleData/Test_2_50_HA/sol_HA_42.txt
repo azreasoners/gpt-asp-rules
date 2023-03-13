@@ -1,0 +1,5 @@
+Sq Footage	Customers	Prices
+95 sq ft	Kirby	$36,000
+110 sq ft	Pratt	$35,000
+125 sq ft	Whitehead	$29,000
+140 sq ft	Gillespie	$25,000

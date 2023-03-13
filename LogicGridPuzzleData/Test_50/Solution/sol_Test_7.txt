@@ -1,0 +1,5 @@
+Days	Sailors	Boat Types
+270	Vicky Estes	catamaran
+274	Debra Decker	schooner
+278	Wendell Orr	trimaran
+282	Gil Baxter	ketch

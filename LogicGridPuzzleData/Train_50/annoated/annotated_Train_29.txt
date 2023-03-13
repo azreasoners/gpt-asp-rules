@@ -1,0 +1,48 @@
+Several of Mr. Carroll's history students each gave an oral presentation today on a different Roman Emperor. Match each student to their emperor and grade, and determine the length of each presentation.
+::names
+Belinda
+Ivan
+Neal
+Zachary
+::lengths
+6 minutes
+8 minutes
+10 minutes
+12 minutes
+::emperors
+Augustus
+Constantine
+Hadrian
+Licinius
+1. The presenter who gave the presentation on Hadrian spoke 4 minutes more than Ivan.
+2. Neal spoke 4 minutes more than the student who gave the presentation on Licinius.
+3. Ivan talked about Constantine.
+4. Ivan spoke 2 minutes less than Zachary.
+###
+2 minutes,3,4,4
+4 minutes,0,11,4
+4 minutes,1,4,4
+Constantine,2,4,6
+Hadrian,0,8,6
+Ivan,0,14,2
+Ivan,2,1,2
+Ivan,3,1,2
+Licinius,1,14,6
+Neal,1,1,2
+Zachary,3,7,2
+gave,0,4,7
+gave,1,10,7
+presentation,0,6,7
+presentation,1,12,7
+presenter,0,2,2
+spoke,0,9,7
+spoke,1,2,7
+spoke,3,2,7
+student,1,8,2
+talked,2,2,7
+
+#######
+sameGroup(0,2,0,8)@posDiff(0,2,0,14,0,11)
+sameGroup(1,8,1,14)@posDiff(1,1,1,8,1,4)
+sameGroup(2,1,2,4)
+negDiff(3,1,3,7,3,4)

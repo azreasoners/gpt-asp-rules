@@ -1,0 +1,49 @@
+A number of real life superheroes have set up shop in Paradise City, hoping to clean up the streets. Match each person to his superhero identity, and determine the year he started and the neighborhood he patrols.
+::years
+2007
+2008
+2009
+2010
+::superheroes
+Criminal Bane
+Deep Shadow
+Ultra Hex
+Wonderman
+::names
+Gabe Grant
+Ivor Ingram
+Matt Minkle
+Peter Powers
+1. Ultra Hex is Gabe Grant.
+2. Criminal Bane is either the hero who started in 2007 or the superhero who started in 2009.
+3. Peter Powers began sometime before Matt Minkle.
+4. Gabe Grant began 1 year after Wonderman.
+5. The four people are Deep Shadow, the superhero who started in 2007, the hero who started in 2009 and Matt Minkle.
+###
+1 year,3,4,2
+2007,1,9,2
+2007,4,12,2
+2009,1,16,2
+2009,4,19,2
+Criminal_Bane,1,1,4
+Deep_Shadow,4,5,4
+Gabe_Grant,0,3,6
+Gabe_Grant,3,1,6
+Matt_Minkle,2,5,6
+Matt_Minkle,4,21,6
+Peter_Powers,2,1,6
+Ultra_Hex,0,1,4
+Wonderman,3,6,4
+four,4,2,7
+hero,1,5,4
+hero,4,15,4
+people,4,3,7
+superhero,1,12,4
+superhero,4,8,4
+
+#######
+sameGroup(0,1,0,3)
+sameGroup(1,5,1,9)@sameGroup(1,12,1,16)@eitherOr12(1,1,1,5,1,12)
+lessThan(2,1,2,5,X,X)
+posDiff(3,1,3,6,3,4)
+members4(4,15,4,5,4,8,4,21)@sameGroup(4,8,4,12)@sameGroup(4,15,4,19)

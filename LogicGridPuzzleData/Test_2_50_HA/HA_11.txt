@@ -1,0 +1,21 @@
+The Winter Olympics have just wrapped up in Norway. Using only the clues that follow, determine the number of gold, silver and bronze medals won by each country.
+::countries
+Dominica
+Jordan
+Venezuela
+Zimbabwe
+::gold medals
+1			
+2			
+3			
+4
+::silver medals
+2			
+5			
+6			
+8
+
+1. The team from Venezuela finished with 4 gold medals.
+2. The squad that won 2 gold medals ended with 6 silver medals.
+3. The four teams were the squad from Zimbabwe, the team that won 3 gold medals, the squad that won 6 silver medals and the squad that won 8 silver medals.
+4. The team from Dominica ended the games with 1 fewer gold medal than the squad that won 5 silver medals.

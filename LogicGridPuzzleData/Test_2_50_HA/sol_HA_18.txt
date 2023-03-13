@@ -1,0 +1,5 @@
+Pieces	Companies	Themes
+250	Garroda	city skyline
+500	Vesem	outer space
+750	Denlend	postage stamp
+1000	Astury	autumn leaves

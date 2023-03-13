@@ -1,0 +1,5 @@
+Scholarships	Names	Majors
+$25,000	Ora	Physics
+$30,000	Tracy	English
+$35,000	Hattie	Archaeology
+$40,000	Erma	Theology

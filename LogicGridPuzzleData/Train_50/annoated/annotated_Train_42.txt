@@ -1,0 +1,48 @@
+Kara recently moved to a new city, so last month she signed up for an online matchmaking service to meet some interesting new people in her area. Using only the clues below, match each of her dates to their age and occupation, and determine where each ended up taking Kara on their first date.
+::ages
+22
+23
+24
+25
+::dates
+Dean
+Jesus
+Max
+Vincent
+::professions
+accountant
+boxer
+firefighter
+musician
+1. The 25 years old was the musician.
+2. Of the musician and the accountant, one was 22 years old and the other was Max.
+3. Dean was 1 year younger than Jesus.
+4. The 24 years old was the firefighter.
+5. The boxer was 1 year older than Dean.
+###
+1 year,2,4,2
+1 year,4,5,2
+22 years,1,11,2
+24 years,3,3,2
+25 years,0,3,2
+Dean,2,1,4
+Dean,4,8,4
+Jesus,2,7,4
+Max,1,17,4
+accountant,1,6,6
+boxer,4,2,6
+firefighter,3,7,6
+musician,0,7,6
+musician,1,3,6
+old,0,4,7
+old,1,12,7
+old,3,4,7
+one,1,8,2
+other,1,15,2
+
+#######
+sameGroup(0,3,0,7)
+sameGroup(1,15,1,17)@referent(1,8,1,11)@referent22(1,3,1,6,1,8,1,15)
+negDiff(2,1,2,7,2,4)
+sameGroup(3,3,3,7)
+posDiff(4,2,4,8,4,5)

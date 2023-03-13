@@ -1,0 +1,30 @@
+Copy a sequence of numbered sentences.
+
+If a sentence is of the form "N. Of A and B, one is C and the other is D", replace it with 3 sentences below.
+N.1 A and B are different.
+N.2 A is C or D.
+N.3 B is C or D.
+
+For every sentence, if it is not of the form "N. Of ... and ...", simply copy it without replacement. An easy way to determine if a sentence is not of the above form is to check if its first word is not of.
+
+In the following example, one sentence is of the above form.
+Given:
+1. The squad from Grenada ended with 2 silver medals.
+2. Of the team from Oman and the team that won 10 silver medals, one finished with 2 gold medals and the other finished with 1 gold medal.
+Copy:
+1. The squad from Grenada ended with 2 silver medals.
+2.1 The team from Oman and the team that won 10 silver medals are different.
+2.2 The team from Oman finished with 2 gold medals or finished with 1 gold medal.
+2.3 The team that won 10 silver medals finished with 2 gold medals or finished with 1 gold medal.
+
+In the following example, no sentence is of the above form.
+Given:
+1. Tabitha's item costs 50 dollars less than the piece made of sandalwood.
+2. The $275 item is either the piece made of ash or Yvette's item.
+Copy:
+1. Tabitha's item costs 50 dollars less than the piece made of sandalwood.
+2. The $275 item is either the piece made of ash or Yvette's item.
+
+Given:
+<CONSTRAINTS>
+Copy:

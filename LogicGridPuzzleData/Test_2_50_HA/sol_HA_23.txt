@@ -1,0 +1,5 @@
+Contract Length	Customers	Cars
+2 days	Irene Ingram	Kia
+3 days	Edna Erickson	Toyota
+4 days	Ann Alexander	Fiat
+5 days	Kathy Koch	Nissan

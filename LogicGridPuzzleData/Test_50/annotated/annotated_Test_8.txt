@@ -1,0 +1,72 @@
+A group of long-time skydivers are planning a new jump today. Match each jumper to their suit color, and determine what year each began skydiving and how many total jumps each has under his belt.
+::names
+Jorge
+Otis
+Philip
+Shaun
+::years
+1982
+1983
+1984
+1985
+::suit colors
+lime green
+pink
+red
+yellow
+1. Jorge is either the skydiver who wears the red suit or the jumper who started in 1982.
+2. The skydiver who wears the pink suit started skydiving 1 year before Otis.
+3. The jumper who wears the yellow suit started skydiving sometime after Philip.
+4. The jumper who wears the lime green suit started skydiving sometime after the jumper who wears the yellow suit.
+5. The jumper who wears the pink suit started skydiving 2 years before Shaun.
+###
+1 year,1,11,4
+1982,0,17,4
+2 years,4,11,4
+Jorge,0,1,2
+Otis,1,13,2
+Philip,2,12,2
+Shaun,4,13,2
+jumper,0,13,2
+jumper,2,2,2
+jumper,3,13,2
+jumper,3,2,2
+jumper,4,2,2
+lime_green,3,6,6
+pink,1,6,6
+pink,4,6,6
+red,0,9,6
+skydiver,0,5,2
+skydiver,1,2,2
+skydiving,1,9,7
+skydiving,2,9,7
+skydiving,3,9,7
+skydiving,4,9,7
+sometime,2,10,4
+sometime,3,10,4
+started,0,15,7
+started,1,8,7
+started,2,8,7
+started,3,8,7
+started,4,8,7
+suit,0,10,6
+suit,1,7,6
+suit,2,7,6
+suit,3,18,6
+suit,3,7,6
+suit,4,7,6
+wears,0,7,7
+wears,1,4,7
+wears,2,4,7
+wears,3,15,7
+wears,3,4,7
+wears,4,4,7
+yellow,2,6,6
+yellow,3,17,6
+
+#######
+sameGroup(0,13,0,17)@referent(0,9,0,10)@sameGroup(0,5,0,10)@eitherOr12(0,1,0,13,0,5)
+sameGroup(1,2,1,7)@referent(1,6,1,7)@negDiff(1,2,1,13,1,11)
+sameGroup(2,2,2,7)@referent(2,6,2,7)@greaterThan(2,2,2,12,2,10)
+sameGroup(3,13,3,18)@sameGroup(3,2,3,7)@referent(3,17,3,18)@referent(3,6,3,7)@greaterThan(3,2,3,13,3,10)
+sameGroup(4,2,4,7)@referent(4,6,4,7)@negDiff(4,2,4,13,4,11)

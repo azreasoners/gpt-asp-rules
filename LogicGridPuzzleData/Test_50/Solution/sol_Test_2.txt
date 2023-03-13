@@ -1,0 +1,5 @@
+Pounds Lost	Names	Diets
+3	Tom	low-fat
+5	Celia	gluten-free
+7	Mandy	vegan
+9	Raymond	dairy-free

@@ -1,0 +1,5 @@
+Years	Players	Positions
+1976	Banben	center back
+1979	Rothvum	wing back
+1982	Kawa	goalie
+1985	Hatcha	center forward

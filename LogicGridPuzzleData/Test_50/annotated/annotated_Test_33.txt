@@ -1,0 +1,53 @@
+Derrick has spent decades photographing waterfalls all around the world. Determine the height of each waterfall and the year Derrick photographed it, as well as the country in which each is located.
+::waterfalls
+Sihat
+Rhoqua
+Nyalt
+Inawatai
+::heights
+100 ft
+105 ft
+110 ft
+115 ft
+::countries
+Brazil
+Nigeria
+Tibet
+Switzerland
+1. The 115 ft tall waterfall is either the waterfall in Nigeria or the waterfall located in Tibet.
+2. Inawatai is 100 ft tall.
+3. Nyalt is 10 ft taller than Rhoqua.
+4. The waterfall in Brazil is somewhat shorter than Rhoqua.
+5. The waterfall in Brazil is 10 ft shorter than the waterfall located in Nigeria.
+###
+10 ft,2,4,4
+10 ft,4,7,4
+100_ft,1,3,4
+115_ft,0,2,4
+Brazil,3,4,6
+Brazil,4,4,6
+Inawatai,1,1,2
+Nigeria,0,10,6
+Nigeria,4,14,6
+Nyalt,2,1,2
+Rhoqua,2,7,2
+Rhoqua,3,9,2
+Tibet,0,16,6
+located,0,14,7
+located,4,12,7
+somewhat,3,6,4
+tall,0,3,7
+tall,1,4,7
+waterfall,0,13,2
+waterfall,0,4,2
+waterfall,0,8,2
+waterfall,3,2,2
+waterfall,4,11,2
+waterfall,4,2,2
+
+#######
+sameGroup(0,2,0,4)@sameGroup(0,13,0,16)@sameGroup(0,8,0,10)@eitherOr12(0,2,0,8,0,13)
+sameGroup(1,1,1,3)
+posDiff(2,1,2,7,2,4)
+sameGroup(3,2,3,4)@lessThan(3,2,3,9,3,6)
+sameGroup(4,2,4,4)@negDiff(4,2,4,11,4,7)@sameGroup(4,11,4,14)

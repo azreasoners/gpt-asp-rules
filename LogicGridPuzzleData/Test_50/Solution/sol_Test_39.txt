@@ -1,0 +1,5 @@
+fliers	months	lucky charms
+troy	january	coin 
+peggy	march	horseshoe 
+doug	february	rabbit's foot 
+eloise	april	shamrock

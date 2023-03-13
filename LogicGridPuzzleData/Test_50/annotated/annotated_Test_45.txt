@@ -1,0 +1,57 @@
+Walter's Bread and Cheese served several customers this morning. Match each customer to the type of bread and cheese they ordered, and determine what time each customer came in.
+::breads
+flatbread
+pumpernickel
+rye bread
+wheat bread
+::times
+7:00am
+7:30am
+8:00am
+8:30am
+::customers
+Felicia
+Isabel
+Ora
+Tricia
+1. The person who came in at 8:00am asked for wheat bread.
+2. Tricia came in a half-hour after Ora.
+3. Of Felicia and the customer who ordered flatbread, one came in at 7:30am and the other came in at 7:00am.
+4. Of the customer who ordered wheat bread; and the person who ordered pumpernickel, one came in at 8:30am and the other was Tricia.
+###
+7_00am,2,21,4
+7_30am,2,14,4
+8_00am,0,7,4
+8_30am,3,19,4
+Felicia,2,2,6
+Ora,1,7,6
+Tricia,1,1,6
+Tricia,3,24,6
+asked,0,8,7
+came,0,4,7
+came,1,2,7
+came,2,11,7
+came,2,18,7
+came,3,16,7
+customer,2,5,6
+customer,3,3,6
+flatbread,2,8,2
+half-hour,1,5,4
+one,2,10,6
+one,3,15,6
+ordered,2,7,7
+ordered,3,12,7
+ordered,3,5,7
+other,2,17,6
+other,3,22,6
+person,0,2,6
+person,3,10,6
+pumpernickel,3,13,2
+wheat_bread,0,10,2
+wheat_bread,3,6,2
+
+#######
+sameGroup(0,2,0,7)@sameGroup(0,2,0,10)
+posDiff(1,1,1,7,1,5)
+sameGroup(2,5,2,8)@sameGroup(2,10,2,14)@sameGroup(2,17,2,21)@referent22(2,2,2,5,2,10,2,17)
+sameGroup(3,10,3,13)@sameGroup(3,3,3,6)@sameGroup(3,15,3,19)@referent(3,22,3,24)@referent22(3,3,3,10,3,15,3,22)

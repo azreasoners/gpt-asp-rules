@@ -1,0 +1,5 @@
+Years	Friends	Activities
+2001	Yvonne	kayaking
+2002	Andy	cycling
+2003	Bill	hunting
+2004	Isabel	skydiving

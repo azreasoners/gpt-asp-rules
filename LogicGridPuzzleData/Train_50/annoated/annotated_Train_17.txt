@@ -1,0 +1,49 @@
+Help the Secretary of State sort out which of her diplomats she needs to send out next. Determine the month and destination of each diplomat, and the duration of their visit.
+::diplomats
+Fitzgerald
+Howell
+Riggs
+Vasquez
+::months
+January
+February
+March
+April
+::durations
+2 day
+6 day
+8 day
+9 day
+1. Howell will leave sometime after Fitzgerald.
+2. Howell will leave sometime before the ambassador with the 6 day visit.
+3. Vasquez will leave 1 month before the ambassador with the 2 day visit.
+4. The ambassador with the 8 day visit will leave 2 months before Vasquez.
+###
+1 month,2,5,4
+2 months,3,10,4
+2_day,2,11,6
+6_day,1,10,6
+8_day,3,5,6
+Fitzgerald,0,6,2
+Howell,0,1,2
+Howell,1,1,2
+Vasquez,2,1,2
+Vasquez,3,12,2
+ambassador,1,7,2
+ambassador,2,8,2
+ambassador,3,2,2
+leave,0,3,7
+leave,1,3,7
+leave,2,3,7
+leave,3,8,7
+sometime,0,4,4
+sometime,1,4,4
+visit,1,11,7
+visit,2,12,7
+visit,3,6,7
+
+#######
+posDiff(0,1,0,6,0,4)
+sameGroup(1,7,1,10)@negDiff(1,1,1,7,1,4)
+sameGroup(2,8,2,11)@negDiff(2,1,2,8,2,5)
+sameGroup(3,2,3,5)@negDiff(3,2,3,12,3,10)

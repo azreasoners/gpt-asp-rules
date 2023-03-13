@@ -1,0 +1,22 @@
+Cobb County has built several new sports arenas this year. Match each arena to the sport its set up for and the town it is in, and determine how many people each can hold.
+::arenas
+Gentry
+Underwood
+Vazquez
+Young
+::capacities
+110			
+150			
+190	
+230
+::sports
+basketball			
+football			
+lacrosse			
+soccer
+
+1. The football facility holds more people than Underwood Arena.
+2. The basketball facility holds 80 more people than Vazquez Arena.
+3. Young Arena holds 230 people.
+4. Underwood Arena holds 40 fewer people than Vazquez Arena.
+5. The facility with seating for 190 people is either the lacrosse facility or Underwood Arena.

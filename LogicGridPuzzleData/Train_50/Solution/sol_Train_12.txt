@@ -1,0 +1,5 @@
+miners	ounces	claims
+Jack Jacobs	17	Belle Hart
+Fred Fletcher	11	Culver Gorge
+Gil Gonzalez	20	Fuller Rise 
+Ivan Ingram	14	York River

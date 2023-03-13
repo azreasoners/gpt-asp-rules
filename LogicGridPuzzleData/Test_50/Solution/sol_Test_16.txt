@@ -1,0 +1,5 @@
+Months	Names	Types
+January	Haramarui LV	direct drive
+February	Essita CBT	fusor
+March	Rodim-Rexit	tokamak
+April	Kuchiwa W10	z-pinch

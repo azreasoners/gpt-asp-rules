@@ -1,0 +1,43 @@
+An auction was held today at which a number of rare butterfly specimens were sold. Determine the price and order of each auction lot, as well as the name of each winning bidder.
+::winners
+Daniel
+Gabriel
+Roland
+Vincent
+::prices
+$250
+$260
+$270
+$280
+::orders
+3rd
+4th
+7th
+8th
+1. The butterfly that was auctioned 7th sold for 20 dollars less than the insect won by Daniel.
+2. The four butterflies were the insect that sold for $260, the butterfly that was auctioned 4th, the butterfly that was auctioned 7th and the butterfly won by Roland.
+3. The butterfly won by Gabriel was the 8th lot.
+###
+20 dollars,0,10,4
+260 $,1,10,4
+4th,1,18,7
+7th,1,25,7
+8th,2,8,7
+Daniel,0,17,7
+Gabriel,2,5,7
+Roland,1,31,7
+butterflies,1,3,7
+butterfly,0,2,2
+butterfly,1,14,4
+butterfly,1,21,2
+butterfly,1,28,2
+butterfly,2,2,2
+four,1,2,7
+insect,0,14,4
+insect,1,6,4
+lot,2,9,2
+
+#######
+sameGroup(0,2,0,5)@sameGroup(0,2,0,7)@referent(0,4,0,5)@sameGroup(0,14,0,15)@lessThan(0,2,0,14,X,X)
+referent(1,5,1,6)@sameGroup(1,28,1,29)@members4(1,14,1,5,1,28,1,21)
+sameGroup(2,2,2,3)@referent(2,2,2,9)

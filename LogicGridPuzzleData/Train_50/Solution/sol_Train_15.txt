@@ -1,0 +1,5 @@
+players	year	positions
+awad	1985	center back 
+gardelli	1979	center forward 
+rothvum	1982	goalie 
+daregh	1976	sweeper

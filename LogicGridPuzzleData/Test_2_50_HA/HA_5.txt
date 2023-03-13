@@ -1,0 +1,24 @@
+After seeing the latest Hollywood blockbuster, several friends went to the local cafe for a late-night dessert. Match each person to their drink and dessert order, and determine the final bill for each.
+
+::names
+Delia
+Hope
+Patricia
+Wayne
+::prices
+$5			
+$6			
+$7			
+$8
+::drinks
+cafe americano			
+cafe latte			
+cappuccino			
+chai tea
+
+
+1. Hope paid less than Delia.
+2. Patricia had the cappuccino.
+3. The one who had the cafe americano paid 1 dollar more than Patricia.
+4. Hope paid more than the one who had the cafe americano.
+5. The one who had the chai tea paid 1 dollar more than the one who had the cafe americano.

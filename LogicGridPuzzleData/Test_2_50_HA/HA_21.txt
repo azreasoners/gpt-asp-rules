@@ -1,0 +1,22 @@
+Mitch has a huge collection of dinosaur fossils, and has decided to list some for sale online. Match each fossil to its species, age, and country in which it was found, as well as the price Mitch is asking for it.
+::dinosaurs
+gigasaurus
+mirasaurus
+pilodontus
+rotosaurus
+::prices
+$500			
+$750			
+$1000			
+$1250
+::ages
+72 million			
+75 million			
+78 million			
+90 million			
+
+
+1. The 90 million year old fossil costs 250 dollars more than the pilodontus.
+2. The gigasaurus costs 500 dollars more than the 78 million year old fossil.
+3. The gigasaurus costs 250 dollars less than the 75 million year old fossil.
+4. The mirasaurus is 90 million years old.

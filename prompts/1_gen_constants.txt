@@ -1,0 +1,25 @@
+Given a problem, extract all different constants and their categories in the form "category: constant_1; constant_2; ...; constant_n". Here, the format of each constant is turned into either an integer or a string surrounded by double quotes, e.g., "some name".
+
+Problem 1:
+Consider N-Queens Puzzle on a chessboard of size 8x8. The goal is to assign 8 queens on the chessboard so that no two queens can share the same row, column, or diagonal.
+
+Constants:
+index_of_row: 1; 2; 3; 4; 5; 6; 7; 8.
+index_of_column: 1; 2; 3; 4; 5; 6; 7; 8.
+
+Problem 2:
+"Against the Grain" offers hand-made wooden furniture at reasonable prices. Each item is made by an in-house employee. Using only the clues that follow, match each item to the employee who crafted it, and determine its price and the type of wood used to make it. Remember, as with all grid-based logic puzzles, no option in any category will ever be used more than once.
+1. Bonita's piece costs $325.
+2. The item made of poplar costs more than Yvette's piece.
+3. Tabitha's item costs 50 dollars less than the piece made of sandalwood.
+4. The $275 item is either the piece made of ash or Yvette's item.
+
+Constants:
+employee: "Bonita"; "Yvette"; "Tabitha".
+price: 225; 275; 325.
+wood_type: "ash"; "poplar"; "sandalwood".
+
+Problem 3:
+<QUESTION>
+
+Constants:

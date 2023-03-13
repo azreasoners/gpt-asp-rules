@@ -1,0 +1,5 @@
+Prices	Clients	Masseuses
+$150	Hannah	Lynda
+$160	Debra	Yvonne
+$170	Beulah	Pam
+$180	Ginger	Vicki

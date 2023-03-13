@@ -1,0 +1,33 @@
+Given categorized constants of the form "category: constant_1; constant_2; ...; constant_n", format the category and constants such that:
+each category consists of only lowercase letters and underscores, and
+each constant is either an integer or a string surrounded by double quotes, e.g., "United States".
+
+There are two ways below to format constants and we must use the same way for all constants of the same category.
+1. Turn all constants of the same category into integers with no space or special character.
+2. Add double quotes around all constants of the same category.
+Note that the 1st way has a higher priority, meaning that we must turn all constants of the same category into integers whenever possible. For example, twice or second can be turned into 2, September can be turned into 9, September 5th can be turned into 5 if all dates are in September, but 9:30am can only be turned into "9:30am" since no integer can represent 9:30am.
+
+Original constants:
+Employees: Bonita; Yvette; Tabitha.
+Prices: $225; $275; $325.
+Wood types: ash; poplar; sandalwood.
+
+Formatted constants:
+employee: "Bonita"; "Yvette"; "Tabitha".
+price: 225; 275; 325.
+wood_type: "ash"; "poplar"; "sandalwood".
+
+Original constants:
+months: January; April; October; December.
+times: 8:30AM; 10:30AM; 2:30PM; 3:30PM.
+durations: 1 day; 3 days; 11 days; 12 days.
+
+Formatted constants:
+month: 1; 4; 10; 12.
+time: "8:30AM"; "10:30PM"; "2:30PM"; "3:30PM".
+duration: 1; 3; 11; 12.
+
+Original constants:
+<CONSTANTS>
+
+Formatted constants:

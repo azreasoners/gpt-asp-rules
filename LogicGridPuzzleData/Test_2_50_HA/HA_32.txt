@@ -1,0 +1,22 @@
+Giovanni, a jeweler, has taken orders from several women for custom-made rings. Using only the clues that follow, determine the price of each ring as well as the precious metal and stone used to make it.
+::customers
+Becky
+Hazel
+Opal
+Yolanda
+::prices
+$1100			
+$1200			
+$1300			
+$1400
+::stones
+aquamarine			
+diamond			
+ruby			
+topaz
+
+1. The ring with the aquamarine cost less than the piece with the diamond.
+2. Opal's ring is either the piece that cost $1300 or the piece with the diamond.
+3. The piece that cost $1400 is either the ring with the ruby or Hazel's ring.
+4. Hazel's ring has the diamond.
+5. Becky's piece cost more than the ring with the diamond.

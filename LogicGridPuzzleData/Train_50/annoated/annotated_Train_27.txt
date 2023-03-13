@@ -1,0 +1,47 @@
+The race for a new understanding of particle physics is on, and several new particle accelerators are scheduled to be built over the next ten years. Match each new accelerator to its location and head scientist, and determine the year each is scheduled to go on-line.
+::years
+2016
+2017
+2018
+2019
+::names
+Bale-Hahn SSC
+Egert Facility
+ISON-X42
+Zynga Complex
+::scientists
+Dr. Farley
+Dr. Golden
+Dr. Owens
+Dr. Weber
+1. The project headed by Dr. Golden will go online sometime before the Zynga Complex.
+2. The project headed by Dr. Weber will go online 1 year before the Bale-Hahn SSC.
+3. The Egert Facility will go online 1 year after the ISON-X42.
+4. The project headed by Dr. Owens will go online 1 year after the ISON-X42.
+###
+1 year,1,10,2
+1 year,2,7,2
+1 year,3,10,2
+Bale_Hahn_SSC,1,13,7
+Dr_Golden,0,5,6
+Dr_Owens,3,5,6
+Dr_Weber,1,5,6
+Egert_Facility,2,2,4
+ISON_X42,2,10,4
+ISON_X42,3,13,4
+Zynga_Complex,0,12,4
+online,0,8,7
+online,1,8,7
+online,2,5,7
+online,3,8,7
+project,0,2,4
+project,1,2,4
+project,3,2,4
+sometime,0,9,2
+#######
+sameGroup(0,2,0,5)@lessThan(0,2,0,12,0,9)
+sameGroup(1,2,1,5)@negDiff(1,2,1,13,1,10)
+negDiff(2,2,2,10,2,7)
+sameGroup(3,2,3,5)@posDiff(3,2,3,13,3,10)
+
+

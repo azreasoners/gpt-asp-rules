@@ -1,0 +1,21 @@
+Michael is compiling a story about some of the top-rated local soccer players of all time. Help him by matching each player to his team, starting year and position.
+::players
+Banben
+Hatcha
+Kawa
+Rothvum
+::years
+1976			
+1979			
+1982			
+1985
+::positions
+center back			
+center forward			
+goalie			
+wing back
+
+1. Hatcha started 6 years after the wing back.
+2. Kawa began playing in 1982.
+3. Banben was the center back.
+4. The person who started in 1985 was either Kawa or the center forward.

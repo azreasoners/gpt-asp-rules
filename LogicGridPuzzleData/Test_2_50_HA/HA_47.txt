@@ -1,0 +1,23 @@
+The Springfield County Bird Club met today, and several of its members brought their newest acquisitions. Match each girl to her newest bird - determine its species and the town and month in which it was purchased.
+::names
+Alberta
+Della
+Ellen
+Gladys
+::months
+January			
+February			
+March			
+April
+::birds
+finch			
+lovebird			
+macaw			
+parakeet			
+
+
+1. Of the bird bought in February and the bird bought in January, one is Gladys's and the other is the macaw.
+2. The macaw was bought 2 months before Ellen's pet.
+3. The parakeet was bought 1 month after the finch.
+4. Alberta's pet was bought 1 month before Gladys's pet.
+5. The finch was bought sometime after the lovebird.

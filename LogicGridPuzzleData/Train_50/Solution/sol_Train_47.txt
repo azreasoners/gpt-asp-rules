@@ -1,0 +1,5 @@
+Height	Trees	Ages
+144 ft.	Zeke's Spruce	80
+147 ft.	Nolan's Pine	96
+150 ft.	Evan's Fir	79
+153 ft.	Old Jarvis	99

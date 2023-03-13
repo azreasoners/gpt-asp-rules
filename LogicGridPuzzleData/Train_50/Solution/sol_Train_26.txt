@@ -1,0 +1,5 @@
+Rankings	Teams	Colors
+first	Spray Paints	yellow
+second	Target Bombs	orange
+third	Color Blinds	blue
+fourth	Splat Squad	white

@@ -1,0 +1,22 @@
+Several of Mr. Carroll's history students each gave an oral presentation today on a different Roman Emperor. Match each student to their emperor and grade, and determine the length of each presentation.
+::names
+Neal
+Omar
+Vickie
+Winifred
+::lengths
+6 minutes			
+8 minutes			
+10 minutes			
+12 minutes
+::emperors
+Diocletian			
+Galerius			
+Licinius			
+Nero
+
+1. Winifred spoke for a somewhat shorter time than Omar.
+2. Neal talked about Diocletian.
+3. The four students were the presenter who spoke for 8 minutes, the student who gave the presentation on Galerius, Neal and Vickie.
+4. The student who gave the presentation on Nero spoke 2 minutes more than Vickie.
+5. Omar was either the presenter who gave the presentation on Nero or the presenter who spoke for 10 minutes.

@@ -1,0 +1,22 @@
+Bill is shopping for a digital camera. Help him narrow down his options by matching each camera to its maker, resolution (in megapixels) and price.
+::companies
+Banion
+Dayero
+Honwa	
+Torvia
+::prices
+$550			
+$575			
+$600			
+$625
+::cameras
+DM-5000			
+FC-520			
+MX-827			
+Zenix 2C
+
+
+1. The model made by Torvia costs 25 dollars more than the model made by Honwa.
+2. The camera made by Honwa is either the Zenix 2C or the MX-827.
+3. Of the $600 model and the FC-520, one is made by Honwa and the other is made by Dayero.
+4. The Zenix 2C costs less than the FC-520.

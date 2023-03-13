@@ -1,0 +1,47 @@
+Valero's 5k Fun Run was held yesterday in the downtown district. Determine the shirt color and hometown of each of the top runners, and match each to their finishing time.
+::runners
+Franklin
+Salvador
+Ted
+Zachary
+::times
+21 minutes
+22 minutes
+23 minutes
+24 minutes
+::colors
+aquamarine
+black
+cyan
+maroon
+1. Zachary wore the aquamarine shirt.
+2. The contestant in the cyan shirt finished 1 minute after Franklin.
+3. Zachary finished 2 minutes after Salvador.
+4. The contestant in the maroon shirt finished 1 minute before Salvador.
+###
+1 minute,1,9,4
+1 minute,3,9,4
+2 minutes,2,4,4
+Franklin,1,11,2
+Salvador,2,6,2
+Salvador,3,11,2
+Zachary,0,1,2
+Zachary,2,1,2
+aquamarine,0,4,6
+contestant,1,2,2
+contestant,3,2,2
+cyan,1,5,6
+finished,1,7,7
+finished,2,2,7
+finished,3,7,7
+maroon,3,5,6
+shirt,0,5,7
+shirt,1,6,7
+shirt,3,6,7
+wore,0,2,7
+
+#######
+sameGroup(0,1,0,4)
+sameGroup(1,2,1,5)@posDiff(1,2,1,11,1,9)
+posDiff(2,1,2,6,2,4)
+sameGroup(3,2,3,5)@negDiff(3,2,3,11,3,9)

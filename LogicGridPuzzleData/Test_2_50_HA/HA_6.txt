@@ -1,0 +1,21 @@
+A competition was held recently at which several universities entered specially-engineered cars to see whose could go the farthest on 10 gallons of gas. Match each car to its team and determine its maximum speed and total distance.
+::cars
+Awick
+Leden
+Poltris
+Versem
+::distances
+525 miles			
+550 miles			
+575 miles			
+600 miles
+::speeds
+62 MPH
+69 MPH
+75 MPH
+81 MPH
+
+1. The Leden drove 25 miles farther than the automobile with a high speed of 75 MPH.
+2. The Poltris drove 25 miles farther than the automobile with a high speed of 69 MPH.
+3. The Awick drove somewhat less than the automobile with a high speed of 81 MPH.
+4. The car with a high speed of 69 MPH drove somewhat farther than the automobile with a high speed of 81 MPH.

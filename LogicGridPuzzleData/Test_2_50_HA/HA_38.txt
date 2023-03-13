@@ -1,0 +1,21 @@
+Lou's Bar and Grill held a friendly darts tournament this week. Using only the clues that follow, match each player to his score, hometown and dart color.
+::players
+Evan
+Ira
+Rudy
+Zachary
+::scores
+41			
+48			
+55			
+62		
+::colors
+gray			
+orange			
+violet			
+white	
+
+1. Evan threw the orange darts.
+2. The player who threw the violet darts scored 7 points higher than Ira.
+3. Ira finished with 41 points.
+4. The player who threw the white darts finished 14 points lower than Rudy.

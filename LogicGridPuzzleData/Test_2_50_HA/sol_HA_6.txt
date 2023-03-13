@@ -1,0 +1,5 @@
+Distances	Cars	Speeds
+525 miles	Awick	75 MPH
+550 miles	Leden	81 MPH
+575 miles	Versem	69 MPH
+600 miles	Poltris	62 MPH

@@ -1,0 +1,5 @@
+Prices	Customers	Stones
+$1100	Yolanda	aquamarine
+$1200	Hazel	diamond
+$1300	Opal	topaz
+$1400	Becky	ruby

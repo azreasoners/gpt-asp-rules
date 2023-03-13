@@ -1,0 +1,5 @@
+Prices	Names	Drinks
+$5	Norman	cafe latte
+$6	Opal	cafe americano
+$7	Linda	cafe mocha
+$8	Hope	espresso

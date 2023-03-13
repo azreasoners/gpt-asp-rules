@@ -1,0 +1,60 @@
+The local aerophobe (one with a fear of flying) support group has several members who each need to take a flight. Match each aerophobe to their flight date and destination, and determine what "lucky charm" each intends to bring with them.
+::fliers
+Katie
+Neal
+Troy
+Yolanda
+::months
+January
+February
+March
+April
+::lucky charms
+coin
+rabbit's foot
+talisman
+wishbone
+1. The passenger with the wishbone is either Troy or Neal.
+2. The four fliers are the passenger with the rabbit's foot, the passenger leaving in April, Yolanda and the passenger leaving in February.
+3. The aerophobe leaving in March is either the aerophobe with the wishbone or the passenger with the talisman.
+4. The passenger with the rabbit's foot will leave 1 month before the passenger with the coin.
+5. Neal will leave in February.
+###
+1 month,3,9,4
+April,1,15,4
+February,1,23,4
+February,4,5,4
+March,2,5,4
+Neal,0,10,2
+Neal,4,1,2
+Troy,0,8,2
+Yolanda,1,17,2
+aerophobe,2,2,2
+aerophobe,2,9,2
+coin,3,15,6
+fliers,1,3,1
+four,1,2,7
+leave,3,7,7
+leave,4,3,7
+leaving,1,13,7
+leaving,1,21,7
+leaving,2,3,7
+passenger,0,2,2
+passenger,1,12,2
+passenger,1,20,2
+passenger,1,6,2
+passenger,2,15,2
+passenger,3,2,2
+passenger,3,12,2
+rabbit_s_foot,1,9,6
+rabbit_s_foot,3,5,6
+talisman,2,18,6
+wishbone,0,5,6
+wishbone,2,12,6
+
+#######
+sameGroup(0,2,0,5)@eitherOr12(0,2,0,8,0,10)
+members4(1,6,1,12,1,20,1,17)@sameGroup(1,12,1,15)@sameGroup(1,6,1,9)@sameGroup(1,20,1,23)
+sameGroup(2,2,2,5)@sameGroup(2,9,2,12)@sameGroup(2,15,2,18)@eitherOr12(2,2,2,9,2,15)
+sameGroup(3,2,3,5)@sameGroup(3,12,3,15)@negDiff(3,2,3,12,3,9)
+sameGroup(4,1,4,5)

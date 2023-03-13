@@ -1,0 +1,53 @@
+Help the Secretary of State sort out which of her diplomats she needs to send out next. Determine the month and destination of each diplomat, and the duration of their visit.
+::diplomats
+Gilbert
+Macdonald
+Pickett
+Vasquez
+::months
+January
+February
+March
+April
+::durations
+4 day
+5 day
+9 day
+10 day
+1. Vasquez will leave sometime after Macdonald.
+2. Vasquez will leave 1 month before the ambassador with the 5 day visit.
+3. Gilbert is either the person leaving in January or the ambassador with the 4 day visit.
+4. Macdonald will leave 1 month before the ambassador with the 4 day visit.
+5. The ambassador with the 4 day visit will leave sometime before the ambassador with the 9 day visit.
+###
+1 month,1,5,4
+1 month,3,5,4
+4_day,2,14,7
+4_day,3,11,7
+4_day,4,5,7
+5_day,1,11,7
+9_day,4,15,7
+Gilbert,2,1,2
+January,2,8,6
+Macdonald,0,6,7
+Macdonald,3,1,7
+Vasquez,0,1,7
+Vasquez,1,1,7
+ambassador,1,8,2
+ambassador,2,11,2
+ambassador,3,8,2
+ambassador,4,12,2
+ambassador,4,2,2
+person,2,5,2
+visit,1,12,7
+visit,2,15,7
+visit,3,12,7
+visit,4,16,7
+visit,4,6,7
+
+#######
+
+
+sameGroup(2,5,2,8)@eitherOr12(2,1,2,5,2,11)
+
+lessThan(4,2,4,12,X,X)

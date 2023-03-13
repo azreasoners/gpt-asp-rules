@@ -1,0 +1,5 @@
+Diameters	Craters	Periods
+100 meters	Cersay	Jurassic
+125 meters	Vorckin	Ordovician
+150 meters	Moriwa	Permian
+175 meters	Ormagh	Triassic

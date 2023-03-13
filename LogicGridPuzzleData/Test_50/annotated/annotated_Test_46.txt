@@ -1,0 +1,65 @@
+Mitch has a huge collection of dinosaur fossils, and has decided to list some for sale online. Match each fossil to its species, age, and country in which it was found, as well as the price Mitch is asking for it.
+::dinosaurs
+archadon
+mirasaurus
+pilodontus
+senosaurus
+::price
+$500
+$750
+$1000
+$1250
+::ages
+69 million
+75 million
+78 million
+85 million
+1. The 75 million year old fossil costs 500 dollars less than the pilodontus.
+2. The senosaurus is 85 million years old.
+3. The 75 million year old fossil costs 500 dollars less than the 78 million year old fossil.
+4. The 75 million year old fossil costs less than the archadon.
+5. The 69 million year old fossil costs 250 dollars more than the 78 million year old fossil.
+###
+250 dollars,4,8,4
+500 dollars,0,8,4
+500 dollars,2,8,4
+69_million,4,2,6
+75_million,0,2,6
+75_million,2,2,6
+75_million,3,2,6
+78_million,2,12,6
+78_million,4,12,6
+85_million years,1,5,6
+archadon,3,10,2
+costs,0,6,7
+costs,2,6,7
+costs,3,6,7
+costs,4,6,7
+fossil,0,5,7
+fossil,2,15,7
+fossil,2,5,7
+fossil,3,5,7
+fossil,4,15,7
+fossil,4,5,7
+old,0,4,7
+old,1,6,7
+old,2,14,7
+old,2,4,7
+old,3,4,7
+old,4,14,7
+old,4,4,7
+pilodontus,0,12,2
+senosaurus,1,2,2
+year,0,3,6
+year,2,13,6
+year,2,3,6
+year,3,3,6
+year,4,13,6
+year,4,3,6
+
+#######
+referent(0,2,0,3)@negDiff(0,3,0,12,0,8)
+sameGroup(1,2,1,5)
+negDiff(2,3,2,13,2,8)@referent(2,2,2,3)@referent(2,13,2,12)
+lessThan(3,3,3,10,X,X)@referent(3,2,3,3)
+posDiff(4,3,4,13,4,8)@referent(4,13,4,12)@referent(4,2,4,3)

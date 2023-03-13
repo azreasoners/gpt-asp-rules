@@ -1,0 +1,22 @@
+Jack has added several new jigsaw puzzles to his sizable collection this year. Determine each puzzle's size (number of pieces), theme, issuing year and company.
+::companies
+Astury
+Denlend
+Garroda
+Vesem
+::pieces
+250			
+500			
+750			
+1000
+::themes
+autumn leaves			
+city skyline			
+outer space			
+postage stamp
+
+1. The puzzle with the postage stamp theme has somewhat fewer than the puzzle made by Astury.
+2. The jigsaw puzzle with the outer space theme has 250 more pieces than the puzzle made by Garroda.
+3. The jigsaw puzzle made by Garroda has somewhat fewer than the puzzle made by Vesem.
+4. The jigsaw puzzle with the postage stamp theme has somewhat more than the puzzle with the city skyline theme.
+5. The jigsaw puzzle made by Vesem has 500 pieces.

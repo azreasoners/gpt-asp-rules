@@ -1,0 +1,52 @@
+Several anthropology PhD candidates will each publish a dissertation this year about a different aboriginal culture they've been living with and studying. Match each student to the culture they've written about and the country in which it is located, and determine the month in which each dissertation will be published.
+::months
+January
+February
+March
+April
+::names
+Ira
+Luther
+Vera
+Yvette
+::cultures
+Cheer
+Garyk
+Haleyito
+Xozix
+1. The person who will publish in January is either the person who has been studying the Cheer culture or Ira.
+2. The person who has been studying the Xozix culture will publish 1 month before the person who has been studying the Haleyito culture.
+3. Of the student who will publish in March and the person who has been studying the Xozix culture, one is Luther and the other is Yvette.
+4. Vera will publish 1 month before Luther.
+###
+1 month,1,13,2
+1 month,3,5,2
+Cheer,0,17,6
+Haleyito,1,22,6
+Ira,0,20,4
+January,0,7,2
+Luther,2,22,4
+Luther,3,7,4
+March,2,8,2
+Vera,3,1,4
+Xozix,1,8,6
+Xozix,2,17,6
+Yvette,2,27,4
+culture,0,18,6
+culture,1,23,6
+culture,1,9,6
+culture,2,18,6
+one,2,20,4
+other,2,25,4
+person,0,11,4
+person,0,2,4
+person,1,16,4
+person,1,2,4
+person,2,11,4
+student,2,3,4
+
+#######
+sameGroup(0,2,0,7)@sameGroup(0,11,0,18)@eitherOr12(0,2,0,18,0,20)@referent(0,19,0,20)
+sameGroup(1,16,1,23)@sameGroup(1,2,1,9)@referent(1,8,1,9)@referent(1,22,1,23)@lessThan(1,2,1,16,1,13)
+sameGroup(2,3,2,8)@sameGroup(2,11,2,18)@referent(2,17,2,18)@referent22(2,3,2,11,2,20,2,25)@referent(2,20,2,22)@referent(2,25,2,27)
+negDiff(3,1,3,7,3,5)

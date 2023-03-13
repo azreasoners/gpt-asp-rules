@@ -1,0 +1,22 @@
+The Shoe Shack has made several top-dollar sales today. Using only the clues below, match each customer to their foot size, shoe brand and final purchase price.
+::customers
+Estelle
+Lucia
+Paulette
+Whitney
+::shoe sizes
+4			
+5			
+6			
+7
+::brands
+Cormano			
+Manzarita			
+Schtillet			
+Williford		
+
+1. Paulette's pair was a size 7.
+2. Estelle's pair was by Cormano.
+3. The Manzarita footwear was either the size 4 set or Whitney's pair.
+4. Of Lucia's pair and the Schtillet footwear, one was a size 7 and the other was a size 6.
+

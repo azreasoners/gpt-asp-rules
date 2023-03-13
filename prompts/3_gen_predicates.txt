@@ -1,0 +1,39 @@
+Given a problem and some categorized constants of the form "category: constant_1; constant_2; ...; constant_n", generate the minimum number of predicates to define the relations among the categories of constants. Each generated predicate is of the form "predicate(X1, X2, ..., Xn)" where X1, X2, ..., Xn are different variables and each variable X belongs to one of the categories. For each category, there must exist at least one variable of some predicate that belongs to this category.
+
+Problem 1:
+Consider N-Queens Puzzle on a chessboard of size 8x8. The goal is to assign 8 queens on the chessboard so that no two queens can share the same row, column, or diagonal.
+
+Constants:
+index_of_row: 1; 2; 3; 4; 5; 6; 7; 8.
+index_of_column: 1; 2; 3; 4; 5; 6; 7; 8.
+
+Predicates:
+% The categories in Constants include index_of_row and index_of_column. We use different variables Ir and Ic to represent index_of_row and index_of_column.
+% We assign a queen at row Ir and column Ic, where Ir belongs to index_of_row and Ic belongs to index_of_column.
+assign(Ir, Ic)
+
+Problem 2:
+"Against the Grain" offers hand-made wooden furniture at reasonable prices. Each item is made by an in-house employee. Using only the clues that follow, match each item to the employee who crafted it, and determine its price and the type of wood used to make it. Remember, as with all grid-based logic puzzles, no option in any category will ever be used more than once.
+1. Bonita's piece costs $325.
+2. The item made of poplar costs more than Yvette's piece.
+3. Tabitha's item costs 50 dollars less than the piece made of sandalwood.
+4. The $275 item is either the piece made of ash or Yvette's item.
+
+Constants:
+employee: "Bonita"; "Yvette"; "Tabitha".
+price: 225; 275; 325.
+wood_type: "ash"; "poplar"; "sandalwood".
+
+Predicates:
+% The categories in Constants include employee, price, and wood_type. We use different variables E, P, and W to represent employee, price, and wood_type.
+% We match an employee E with price P and wood type W, where E belongs to employee, P belongs to price, and W belongs to wood_type.
+match(E, P, W)
+
+Problem 3:
+<STORY>
+<CONSTRAINTS>
+
+Constants:
+<CONSTANTS>
+
+Predicates:

@@ -1,0 +1,5 @@
+Streets	managers	months
+juniper lane	al anderson	april
+quince street	ed erickson	may
+fred lane	cal craft	june
+ethel street	hal hamilton	july

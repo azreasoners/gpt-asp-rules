@@ -1,0 +1,5 @@
+People	Planners	Events
+50	Herbert	wedding
+75	Susan	anniversary
+100	Joel	birthday
+125	Teresa	graduation

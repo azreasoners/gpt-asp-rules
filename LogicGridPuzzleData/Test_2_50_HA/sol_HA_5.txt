@@ -1,0 +1,5 @@
+Prices	Names	Drinks
+$5	Patricia	cappuccino
+$6	Wayne	cafe americano
+$7	Hope	chai tea
+$8	Delia	cafe latte

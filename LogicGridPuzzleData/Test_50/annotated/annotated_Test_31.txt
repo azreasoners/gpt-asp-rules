@@ -1,0 +1,45 @@
+Nicholas and Edith are having a small dinner party this evening at their home in Cedar Valley, and they've decided to open a select number of rare wines from their personal collection to celebrate the occasion. Using only the clues below, match each wine to its vintage (year) and vineyard, and determine the type of each.
+::vintages
+1984
+1988
+1992
+1996
+::wines
+Annata Branco
+Friambliss
+Luzagueil
+Zifennwein
+::types
+chardonnay
+merlot
+pinot gris
+syrah
+1. The Luzagueil is a chardonnay.
+2. The Annata Branco is either the 1992 wine or the syrah.
+3. The Friambliss is a syrah.
+4. Of the pinot gris and the 1984 bottle, one is the Luzagueil and the other is the Zifennwein.
+5. The pinot gris was bottled 4 years after the merlot.
+###
+1984 bottle,3,7,2
+1992 wine,1,7,2
+4 years,4,6,2
+Annata_Branco,1,2,4
+Friambliss,2,2,4
+Luzagueil,0,2,4
+Luzagueil,3,12,4
+Zifennwein,3,18,4
+chardonnay,0,5,6
+merlot,4,9,6
+one,3,9,6
+other,3,15,6
+pinot_gris,3,3,6
+pinot_gris,4,2,6
+syrah,1,10,6
+syrah,2,5,6
+
+#######
+sameGroup(0,2,0,5)
+eitherOr12(1,2,1,7,1,10)
+sameGroup(2,2,2,5)
+sameGroup(3,9,3,12)@sameGroup(3,14,3,18)@referent22(3,3,3,7,3,9,3,14)
+posDiff(4,2,4,9,4,6)

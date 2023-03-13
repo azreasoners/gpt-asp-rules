@@ -1,0 +1,23 @@
+Arnold's got a number of car rental reservations to handle today. Help him out by matching each customer to her car, pickup location and contract length.
+::customers
+Ann Alexander
+Edna Erickson
+Irene Ingram
+Kathy Koch
+::contract length
+2 days			
+3 days			
+4 days			
+5 days
+::cars
+Fiat			
+Kia			
+Nissan			
+Toyota			
+
+
+1. The Kia rental is for a period 1 day shorter than the Toyota rental.
+2. The 4 day rental is for the Fiat.
+3. Kathy Koch's reservation is either the 5 day reservation or the Fiat rental.
+4. The 3 day rental, Irene Ingram's reservation and Kathy Koch's reservation are all different rentals.
+5. Ann Alexander's rental is for 4 days.

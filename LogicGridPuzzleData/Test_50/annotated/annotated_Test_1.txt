@@ -1,0 +1,48 @@
+The local foodie club met at Chez Martin last night for their monthly meal. Match each person to their choice of wine and entree, and determine how much each owed at the end of the night.
+::wines
+chianti
+port
+riesling
+shiraz
+::prices
+$24
+$25
+$26
+$27
+::names
+Isabel
+Kurt
+Priscilla
+Robin
+1. The person who had the port paid 1 dollar more than Kurt.
+2. Of the person who paid $25 and the person who paid $24, one was Priscilla and the other had the shiraz.
+3. Of the person who paid $27 and Priscilla, one had the chianti and the other had the port.
+4. Isabel paid $25.
+###
+1 dollar,0,9,4
+24 $,1,13,4
+25 $,1,6,4
+25 $,3,3,4
+27 $,2,6,4
+Isabel,3,1,6
+Kurt,0,12,6
+Priscilla,1,18,6
+Priscilla,2,9,6
+chianti,2,14,6
+one,1,16,6
+one,2,11,6
+other,1,21,6
+other,2,17,6
+person,0,2,6
+person,1,10,6
+person,1,3,6
+person,2,3,6
+port,0,6,2
+port,2,20,2
+shiraz,1,24,2
+
+#######
+sameGroup(0,2,0,6)@posDiff(0,2,0,12,0,9)
+sameGroup(1,3,1,6)@sameGroup(1,10,1,13)@referent22(1,3,1,10,1,16,1,21)@referent(1,16,1,18)@referent(1,21,1,24)
+sameGroup(2,3,2,6)@referent22(2,3,2,9,2,11,2,17)@sameGroup(2,11,2,14)@sameGroup(2,17,2,20)
+sameGroup(3,1,3,3)

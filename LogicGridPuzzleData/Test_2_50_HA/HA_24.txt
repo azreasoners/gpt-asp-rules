@@ -1,0 +1,21 @@
+A group of friends has gotten together for dinner, and just for fun they're comparing their "social networking" stats on Facebook, Twitter and LinkedIn. Using only the clues that follow, determine the number of friends (Facebook), followers (Twitter) and connections (LinkedIn) each person has.
+::Facebook
+120			
+130			
+140			
+150
+::LinkedIn
+57			
+68			
+72			
+84	
+::names
+Jonathan
+Margie
+Rosie
+Yvonne
+
+1. The person with 72 LinkedIn connections has 10 fewer Facebook friends than the person with 84 LinkedIn connections.
+2. Yvonne has 20 fewer Facebook friends than Margie.
+3. The four people are the one with 68 LinkedIn connections, Jonathan, Rosie and the person with 120 Facebook friends.
+4. Rosie has 150 Facebook friends.

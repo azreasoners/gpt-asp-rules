@@ -1,0 +1,21 @@
+This year's All-Star Hockey Team has a number of top players from all across the national league. Match each player to his team and jersey number, and determine how many goals he has scored this past season.
+::players
+Klein
+Underwood
+Walls
+Zimmerman
+::goals
+6			
+7			
+8			
+9
+::teams
+Checkers			
+Comets			
+Ice Hogs			
+Wolverines
+
+1. Zimmerman is from the Wolverines.
+2. The person from the Ice Hogs scored 1 goal less than the player from the Wolverines.
+3. Klein had 9 goals this season.
+4. The player from the Checkers scored 1 goal more than Walls.

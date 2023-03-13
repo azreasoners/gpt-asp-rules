@@ -1,0 +1,59 @@
+Jarvis is teaching a small group of friends how to properly brew several different types of tea. Using only the clues that follow, determine the ideal temperature and steep time for each tea, as well as its price per pound.
+::teas
+Ali Shan
+Jin Xuan
+Pouchong
+Red Robe
+::prices
+$4
+$5
+$6
+$7
+::temperatures
+190 degree
+195 degree
+200 degree
+215 degree
+1. The variety that requires 190 degree water costs 1 dollar less than the variety that requires 195 degree water.
+2. The Pouchong costs 1 dollar less than the Red Robe.
+3. The Pouchong needs 195 degree water.
+4. The four teas are the Ali Shan, the variety that costs $6, the variety that requires 200 degree water and the tea that requires 190 degree water.
+###
+1 dollar,0,9,4
+1 dollar,1,5,4
+190_degree,0,5,6
+190_degree,3,26,6
+195_degree,0,16,6
+195_degree,2,4,6
+200_degree,3,19,6
+6 $,3,12,4
+Ali_Shan,3,6,2
+Pouchong,1,2,2
+Pouchong,2,2,2
+Red_Robe,1,9,2
+costs,0,7,7
+costs,1,3,7
+costs,3,11,7
+four,3,2,7
+needs,2,3,7
+requires,0,15,7
+requires,0,4,7
+requires,3,18,7
+requires,3,25,7
+tea,3,23,2
+teas,3,3,1
+variety,0,13,2
+variety,0,2,2
+variety,3,16,2
+variety,3,9,2
+water,0,17,7
+water,0,6,7
+water,2,5,7
+water,3,20,7
+water,3,27,7
+
+#######
+sameGroup(0,2,0,5)@sameGroup(0,13,0,16)@negDiff(0,2,0,13,0,9)
+negDiff(1,2,1,9,1,5)
+sameGroup(2,2,2,4)
+sameGroup(3,16,3,19)@sameGroup(3,9,3,12)@sameGroup(3,23,3,26)@members4(3,6,3,9,3,16,3,23)

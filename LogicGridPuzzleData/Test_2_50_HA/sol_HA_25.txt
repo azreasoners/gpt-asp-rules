@@ -1,0 +1,5 @@
+Months	Animals	Magazines
+March	orangutan	The Geographer
+April	giant tortoise	Wildzone
+May	snow leopard	Science World
+June	tree kangaroo	Earth Aware

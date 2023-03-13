@@ -1,0 +1,22 @@
+Signal Security Solutions offers several high-quality sirens for sale. Help them put together a brochure by matching each siren to its price, loudness (in decibels) and the year it was first put on the market.
+::sirens
+Armor-Stop
+Rip Tide
+Soundarm
+Viking 5
+::decibels
+100 decibels			
+105 decibels			
+110 decibels			
+115 decibels
+::years
+1996			
+1997			
+2000			
+2009
+
+1. The siren released in 1997 is 10 decibels louder than the siren released in 1996.
+2. The siren released in 2009 is either the Armor-Stop or the Viking 5.
+3. The siren released in 1997 is either the Soundarm or the Viking 5.
+4. The Armor-Stop is louder than the siren released in 2009.
+5. The Soundarm is 110 decibels loud.

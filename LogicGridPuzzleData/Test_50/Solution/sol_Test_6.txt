@@ -1,0 +1,5 @@
+Days	Names	Departures
+June 10	Ira	Coulterville
+June 11	Francis	Manson
+June 12	Oscar	Buttonwillow
+June 13	Greg	Indio

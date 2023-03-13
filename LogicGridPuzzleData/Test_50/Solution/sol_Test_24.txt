@@ -1,0 +1,5 @@
+Earnings	Movies	Directors
+2 million	What a World	Micah Moreno
+5 million	Fast and Dead	Kenneth Key
+8 million	Amerigo	Jim Johnson
+11 million	Let Me Out	Linda Lynch

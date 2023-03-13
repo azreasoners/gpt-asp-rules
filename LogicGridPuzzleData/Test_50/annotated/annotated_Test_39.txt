@@ -1,0 +1,48 @@
+The local aerophobe (one with a fear of flying) support group has several members who each need to take a flight. Match each aerophobe to their flight date and destination, and determine what "lucky charm" each intends to bring with them.
+::fliers
+Doug
+Eloise
+Peggy
+Troy
+::months
+January
+February
+March
+April
+::lucky charms
+coin
+horseshoe
+rabbit's foot
+shamrock
+1. The flier leaving in April will bring shamrock.
+2. The passenger with the rabbit's foot will leave 1 month after Troy.
+3. The flier with the horseshoe will leave 1 month after Doug.
+4. The flier with the horseshoe is either Peggy or the passenger leaving in January.
+###
+1 month,1,9,4
+1 month,2,9,4
+April,0,5,4
+Doug,2,11,2
+January,3,14,4
+Peggy,3,8,2
+Troy,1,11,2
+bring,0,7,7
+flier,0,2,2
+flier,2,2,2
+flier,3,2,2
+horseshoe,2,5,6
+horseshoe,3,5,6
+leave,1,7,7
+leave,2,7,7
+leaving,0,3,7
+leaving,3,12,7
+passenger,1,2,2
+passenger,3,11,2
+rabbit_s_foot,1,5,6
+shamrock,0,8,6
+
+#######
+sameGroup(0,2,0,5)@sameGroup(0,2,0,8)
+sameGroup(1,2,1,5)@posDiff(1,2,1,11,1,9)
+sameGroup(2,2,2,5)@posDiff(2,2,2,11,2,9)
+sameGroup(3,2,3,5)@sameGroup(3,11,3,14)@eitherOr12(3,2,3,11,3,8)

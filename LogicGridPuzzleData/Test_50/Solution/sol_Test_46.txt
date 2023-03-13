@@ -1,0 +1,5 @@
+dinosaurs	price	ages
+archadon	$1250	69 million
+mirasaurus	$500	75 million
+pilodontus	$1000	78 million
+senosaurus	$750	85 million

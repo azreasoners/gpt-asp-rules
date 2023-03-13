@@ -1,0 +1,64 @@
+Several of Mr. Carroll's European History students each gave an oral presentation today on a different U.K. Prime Minister. Match each student to their prime minister and grade, and determine the length of each presentation.
+::names
+Anita
+Colleen
+Perry
+Theodore
+::lengths
+6 minutes
+8 minutes
+10 minutes
+12 minutes
+::prime ministers
+Chamberlain
+Churchill
+Gladstone
+Heath
+1. The student who spoke for 12 minutes talked about Churchill.
+2. Anita was either the presenter who spoke for 10 minutes or the presenter who gave the presentation on Gladstone.
+3. Perry spoke 4 minutes more than the presenter who gave the presentation on Gladstone.
+4. Colleen was either the presenter who spoke for 10 minutes or the student who gave the presentation on Gladstone.
+5. The presenter who gave the presentation on Chamberlain spoke 2 minutes less than Colleen.
+###
+10_minutes,1,9,4
+10_minutes,3,9,4
+12_minutes,0,6,4
+2 minutes,4,11,4
+4 minutes,2,4,4
+Anita,1,1,2
+Chamberlain,4,8,6
+Churchill,0,9,6
+Colleen,3,1,2
+Colleen,4,14,2
+Gladstone,1,18,6
+Gladstone,2,14,6
+Gladstone,3,18,6
+Perry,2,1,2
+gave,1,14,7
+gave,2,10,7
+gave,3,14,7
+gave,4,4,7
+presentation,1,16,7
+presentation,2,12,7
+presentation,3,16,7
+presentation,4,6,7
+presenter,1,12,2
+presenter,1,5,2
+presenter,2,8,2
+presenter,3,5,2
+presenter,4,2,2
+spoke,0,4,7
+spoke,1,7,7
+spoke,2,2,7
+spoke,3,7,7
+spoke,4,9,7
+student,0,2,2
+student,3,12,2
+talked,0,7,7
+
+#######
+sameGroup(0,2,0,6)@sameGroup(0,2,0,9)
+sameGroup(1,12,1,18)@sameGroup(1,5,1,9)@eitherOr12(1,1,1,5,1,12)
+sameGroup(2,8,2,14)@posDiff(2,1,2,8,2,4)
+sameGroup(3,12,3,18)@sameGroup(3,5,3,9)@eitherOr12(3,1,3,5,3,12)
+sameGroup(4,2,4,8)@negDiff(4,2,4,14,4,11)

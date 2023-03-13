@@ -1,0 +1,71 @@
+Julia has hired several new people to work as ride-managers for Walton World Amusement Park. She needs to check on their results after their first full day at work. Help her match each new employee to their ride and section of the park (broken down by color), as well as the number of people each served during that day.
+::employees
+Andy
+Brett
+Victor
+Zachary
+::riders
+50 riders
+75 riders
+100 riders
+125 riders
+::section
+blue
+green
+red
+yellow
+1. The worker who works in the green section served 25 more riders than Andy.
+2. Of the employee who works in the red section and the worker who works in the yellow section, one served 50 riders and the other is Victor.
+3. The employee who works in the green section is either Zachary or the worker who served 100 riders.
+4. The person who works in the yellow section served 50 more riders than Zachary.
+5. Victor served more riders than the worker who works in the blue section.
+###
+100_riders,2,17,4
+25 riders,0,12,4
+50 riders,3,12,4
+50_riders,1,22,4
+Andy,0,14,2
+Victor,1,27,2
+Victor,4,1,2
+Zachary,2,11,2
+Zachary,3,14,2
+blue,4,12,6
+employee,1,3,2
+employee,2,2,2
+green,0,7,6
+green,2,7,6
+one,1,20,2
+other,1,25,2
+person,3,2,2
+red,1,8,6
+riders,4,4,4
+section,0,8,6
+section,1,18,6
+section,1,9,6
+section,2,8,6
+section,3,8,6
+section,4,13,6
+served,0,9,7
+served,1,21,7
+served,2,16,7
+served,3,9,7
+served,4,2,7
+worker,0,2,2
+worker,1,12,2
+worker,2,14,2
+worker,4,7,2
+works,0,4,7
+works,1,14,7
+works,1,5,7
+works,2,4,7
+works,3,4,7
+works,4,9,7
+yellow,1,17,6
+yellow,3,7,6
+
+#######
+sameGroup(0,2,0,8)@referent(0,7,0,8)@posDiff(0,2,0,14,0,12)
+sameGroup(1,12,1,18)@referent(1,25,1,27)@referent(1,17,1,18)@sameGroup(1,3,1,9)@referent(1,8,1,9)@sameGroup(1,20,1,22)@referent22(1,3,1,12,1,20,1,25)
+sameGroup(2,2,2,8)@referent(2,7,2,8)@sameGroup(2,14,2,17)@eitherOr12(2,2,2,14,2,11)
+sameGroup(3,2,3,8)@referent(3,7,3,8)@posDiff(3,2,3,14,3,12)
+sameGroup(4,7,4,13)@referent(4,12,4,13)@greaterThan(4,1,4,7,4,4)

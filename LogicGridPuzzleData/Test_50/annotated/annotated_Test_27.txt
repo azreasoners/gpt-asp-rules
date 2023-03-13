@@ -1,0 +1,53 @@
+Mona and Rey are planning their honeymoon. They know they want to go somewhere in the Caribbean, but they have so many choices! Help them make a decision by matching each resort to its island location, price per night, and unique feature.
+::prices
+$175
+$195
+$215
+$235
+::resorts
+El Pacifico
+Emerald View
+Grand Echo
+Regal Park
+::islands
+Anguilla
+Barbados
+Martinique
+St. Barts
+1. Regal Park is on Barbados.
+2. Grand Echo costs 40 dollars more per night than the resort on Barbados.
+3. Of El Pacifico and Regal Park, one is on Martinique and the other costs $175 per night.
+4. The hotel that costs $215 per night is either the hotel on St. Barts or Emerald View.
+5. Grand Echo costs 20 dollars less per night than Emerald View.
+###
+175 $,2,14,2
+20 dollars,4,4,2
+215 $,3,5,2
+40 dollars,1,4,2
+Barbados,0,4,6
+Barbados,1,12,6
+El_Pacifico,2,2,4
+Emerald_View,3,16,4
+Emerald_View,4,9,4
+Grand_Echo,1,1,4
+Grand_Echo,4,1,4
+Martinique,2,9,6
+Regal_Park,0,1,4
+Regal_Park,2,4,4
+St_Barts,3,14,6
+hotel,3,12,4
+hotel,3,2,4
+night,1,7,7
+night,2,17,7
+night,3,8,7
+night,4,7,7
+one,2,6,4
+other,2,12,4
+resort,1,10,4
+
+#######
+sameGroup(0,1,0,4)
+posDiff(1,1,1,10,1,4)@sameGroup(1,10,1,12)
+sameGroup(2,6,2,9)@sameGroup(2,12,2,14)@referent22(2,2,2,4,2,6,2,12)
+sameGroup(3,2,3,5)@sameGroup(3,12,3,14)@eitherOr12(3,2,3,12,3,16)
+negDiff(4,1,4,9,4,4)

@@ -1,0 +1,62 @@
+Match each auctioned butterfly species to its owner and country of origin, and determine the final price paid for each.
+::prices
+$45
+$60
+$75
+$90
+::winners
+Alejandro
+Faye
+Irma
+Phillip
+::butterflies
+atlas
+emperor
+grayling
+peacock
+1. Alejandro's purchase cost less than Irma's purchase.
+2. The insect that sold for $90 was either the atlas butterfly or the emperor butterfly.
+3. The peacock butterfly cost more than Irma's purchase.
+4. Of Alejandro's purchase and Irma's purchase, one was the emperor butterfly and the other sold for $45.
+5. The four butterflies were Phillip's purchase, the insect that sold for $60, the butterfly that sold for $45 and the butterfly that sold for $90.
+###
+45 $,3,20,2
+45 $,4,22,2
+60 $,4,14,2
+90 $,1,6,2
+90 $,4,30,2
+Alejandro,0,1,4
+Alejandro,3,2,4
+Irma,0,7,4
+Irma,2,7,4
+Irma,3,6,4
+Phillip,4,5,4
+atlas,1,11,6
+butterflies,4,3,7
+butterfly,1,12,6
+butterfly,1,16,6
+butterfly,2,3,6
+butterfly,3,14,6
+butterfly,4,18,6
+butterfly,4,26,6
+emperor,1,15,6
+emperor,3,13,6
+four,4,2,7
+insect,1,2,6
+insect,4,10,6
+one,3,10,7
+other,3,17,7
+peacock,2,2,6
+purchase,0,3,7
+purchase,0,9,7
+purchase,2,9,7
+purchase,3,4,7
+purchase,3,8,7
+purchase,4,7,7
+
+#######
+lessThan(0,1,0,7,X,X)
+sameGroup(1,2,1,6)@eitherOr12(1,2,1,12,1,16)@referent(1,11,1,12)@referent(1,15,1,16)
+greaterThan(2,3,2,7,X,X)@referent(2,2,2,3)
+referent(3,13,3,14)@referent22(3,2,3,6,3,14,3,20)
+sameGroup(4,26,4,30)@sameGroup(4,10,4,14)@sameGroup(4,18,4,22)@members4(4,5,4,26,4,18,4,10)

@@ -1,0 +1,22 @@
+Lorena's Specialty Cakes has a number of different orders to fulfill this week. Using only the clues that follow, match each customer to their specialty cake's shape and flavor, and determine the day each is to be delivered.
+::customers
+Danielson
+Estrada
+Ingram
+Nolan
+::delivery dates
+October 5			
+October 6			
+October 7			
+October 8
+::cake shapes
+baseball glove			
+bowling pin			
+sports car			
+turtle
+
+1. Mrs. Danielson's cake will be delivered 1 day before the order shaped like a sports car.
+2. The order shaped like a turtle will be delivered 2 days before Mrs. Ingram's cake.
+3. The cake shaped like a bowling pin is either the October 5 delivery or Mrs. Ingram's cake.
+4. Mrs. Nolan's cake will be in the shape of a sports car.
+5. The October 7 delivery will be in the shape of a bowling pin.

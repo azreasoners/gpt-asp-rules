@@ -1,0 +1,53 @@
+The Springfield County Bird Club met today, and several of its members brought their newest acquisitions. Match each girl to her newest bird - determine its species and the town and month in which it was purchased.
+::months
+January
+February
+March
+April
+::names
+Celia
+Laura
+Natalie
+Roberta
+::birds
+lorikeet
+lovebird
+macaw
+parrot
+1. Of the parrot and the lorikeet, one was bought in April and the other is Roberta's.
+2. Natalie's pet was bought sometime before Roberta's pet.
+3. Laura's pet is the lovebird.
+4. The bird bought in February is either the lorikeet or the lovebird.
+5. Of the bird bought in February and the macaw, one is Natalie's and the other is Roberta's.
+###
+April,0,12,2
+February,3,5,2
+February,4,6,2
+Laura,2,1,4
+Natalie,1,1,4
+Natalie,4,13,4
+Roberta,0,17,4
+Roberta,1,8,4
+Roberta,4,19,4
+bird,3,2,6
+bird,4,3,6
+lorikeet,0,6,6
+lorikeet,3,9,6
+lovebird,2,6,6
+lovebird,3,12,6
+macaw,4,9,6
+one,0,8,6
+one,4,11,6
+other,0,15,6
+other,4,17,6
+parrot,0,3,6
+pet,1,10,6
+pet,1,3,6
+pet,2,3,6
+
+#######
+sameGroup(0,15,0,17)@sameGroup(0,8,0,12)@referent22(0,3,0,6,0,8,0,15)
+sameGroup(1,1,1,3)@sameGroup(1,8,1,10)@lessThan(1,3,1,10,X,X)
+sameGroup(2,1,2,3)@referent(2,3,2,6)
+sameGroup(3,2,3,5)@eitherOr12(3,2,3,12,3,9)
+sameGroup(4,3,4,6)@sameGroup(4,17,4,19)@sameGroup(4,11,4,13)@referent22(4,3,4,9,4,11,4,17)

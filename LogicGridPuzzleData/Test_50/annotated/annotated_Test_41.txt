@@ -1,0 +1,54 @@
+A prize has been announced, awarding $50 million to the first privately-owned company to successfully send a probe to Neptune. Using only the clues that follow, match each company to its rocket and home country, and determine the month in which it will launch its probe.
+::rockets
+Beritron
+Cornick
+Exatris
+Worul
+::months
+January
+February
+March
+April
+::companies
+Rubicorp
+SpaceZen
+Techtrin
+Vexatech
+1. The rocket developed by Vexatech will launch 1 month after the Exatris.
+2. The rocket developed by SpaceZen will launch sometime after the Beritron.
+3. The Worul is made by Techtrin.
+4. The Exatris will launch in January.
+5. The Cornick is either the rocket that will launch in April or the rocket developed by Rubicorp.
+###
+1 month,0,9,4
+April,4,11,4
+Beritron,1,11,2
+Cornick,4,2,2
+Exatris,0,12,2
+Exatris,3,2,2
+January,3,6,4
+Rubicorp,4,17,6
+SpaceZen,1,5,6
+Techtrin,2,6,6
+Vexatech,0,5,6
+Worul,2,2,2
+developed,0,3,7
+developed,1,3,7
+developed,4,15,7
+launch,0,7,7
+launch,1,7,7
+launch,3,4,7
+launch,4,9,7
+made,2,4,7
+rocket,0,2,2
+rocket,1,2,2
+rocket,4,14,2
+rocket,4,6,2
+sometime,1,8,4
+
+#######
+sameGroup(0,2,0,5)@posDiff(0,2,0,12,0,9)
+sameGroup(1,2,1,5)@greaterThan(1,2,1,11,1,8)
+sameGroup(2,2,2,6)
+sameGroup(3,2,3,6)
+sameGroup(4,6,4,11)@sameGroup(4,14,4,17)@eitherOr12(4,2,4,14,4,6)

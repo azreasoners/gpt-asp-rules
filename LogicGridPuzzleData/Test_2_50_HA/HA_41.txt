@@ -1,0 +1,21 @@
+Cobb County has built several new sports arenas this year. Match each arena to the sport its set up for and the town it is in, and determine how many people each can hold.
+::arenas
+Frederick
+Ingram
+Noble
+Wilcox
+::capacities
+110			
+150			
+190			
+230
+::sports
+basketball			
+lacrosse			
+rugby			
+soccer
+
+1. Of Ingram Arena and Noble Arena, one holds 150 people and the other is set up for rugby games.
+2. The lacrosse facility holds 40 more people than Wilcox Arena.
+3. Ingram Arena holds 230 people.
+4. Wilcox Arena holds 80 fewer people than the soccer facility.

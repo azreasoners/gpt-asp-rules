@@ -1,0 +1,5 @@
+Heights	Mountains	Climbers
+210	Mt. Gillespie	Leonard Lara
+340	Mt. York	Kermit Kramer
+470	Mt. Quinn	Eddie English
+600	Mt. Brewer	Ben Beasley

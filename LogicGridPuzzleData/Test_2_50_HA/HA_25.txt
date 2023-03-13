@@ -1,0 +1,22 @@
+Salvatore is a professional wildlife photographer who has sold a number of his shots recently to nature magazines. Using only the clues that follow, match each shoot to the month in which it took place, the animal it featured, the magazine that bought it and the price that was paid.
+::animals
+giant tortoise
+orangutan
+snow leopard
+tree kangaroo
+::months
+March			
+April			
+May			
+June
+::magazines
+Earth Aware			
+Science World			
+The Geographer			
+Wildzone
+
+
+1. The photo taken in April was published by Wildzone.
+2. The shot of the giant tortoise was taken 1 month before the photo published by Science World.
+3. The photo of the orangutan was published by The Geographer.
+4. The photo of the snow leopard was taken 2 months after the photo published by The Geographer.

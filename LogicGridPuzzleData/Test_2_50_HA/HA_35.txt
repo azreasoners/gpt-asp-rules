@@ -1,0 +1,22 @@
+Jerry has had a busy day taxiing people all around Seattle today. Help him square his receipts by matching each customer to their fare, pickup point and drop-off location.
+::customers
+Della
+Neil
+Rosa
+Sara
+::fares
+$6			
+$9			
+$12			
+$15
+::pickup points
+Arctic Building			
+Fremont Library			
+Neptune Theatre			
+Smith Tower
+
+1. Rosa paid somewhat more than the customer who got picked up at the Smith Tower.
+2. The client with the $9 fare was picked up at the Smith Tower.
+3. Neil paid 3 dollars more than Rosa.
+4. The customer who got picked up at the Fremont Library was either the client with the $9 fare or Della.
+5. The person with the $15 fare was picked up at the Neptune Theatre.

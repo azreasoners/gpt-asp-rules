@@ -1,0 +1,46 @@
+There are a series of mountains on the small island nation of Pen'au which soar 14,000 feet or higher into the sky. These are called the "Pen'au Fourteeners." Using only the clues below, match each mountain to its elevation (in feet), and determine who was the to climb each mountain and when.
+::heights
+210
+340
+470
+600
+::mountains
+Mt. Brewer
+Mt. Gillespie
+Mt. Quinn
+Mt. York
+::climbers
+Ben Beasley
+Eddie English
+Kermit Kramer
+Leonard Lara
+1. The mountain that is 210 feet tall was climbed by Leonard Lara.
+2. Of Mt. Brewer and Mt. Quinn, one was climbed by Ben Beasley and the other is 470 feet tall.
+3. Mt. Brewer is either the mountain summited by Leonard Lara or the peak that is 600 feet tall.
+4. Mt. York was climbed by Kermit Kramer.
+###
+210 feet,0,6,2
+470 feet,1,16,2
+600 feet,2,15,2
+Ben_Beasley,1,10,6
+Kermit_Kramer,3,5,6
+Leonard_Lara,0,11,6
+Leonard_Lara,2,8,6
+Mt_Brewer,1,2,4
+Mt_Brewer,2,1,4
+Mt_Quinn,1,4,4
+Mt_York,3,1,4
+mountain,0,2,4
+mountain,2,5,4
+one,1,6,4
+other,1,13,4
+peak,2,11,4
+tall,0,7,7
+tall,1,17,7
+tall,2,16,7
+
+#######
+sameGroup(0,2,0,6)@sameGroup(0,2,0,11)
+sameGroup(1,6,1,10)@sameGroup(1,13,1,16)@referent22(1,2,1,4,1,6,1,13)
+sameGroup(2,11,2,15)@sameGroup(2,5,2,8)@eitherOr12(2,1,2,5,2,11)
+sameGroup(3,1,3,5)

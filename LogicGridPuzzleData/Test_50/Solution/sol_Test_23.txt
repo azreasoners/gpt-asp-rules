@@ -1,0 +1,5 @@
+Durations	Rowers	Start Points
+184 days	Antonio	Bodega Bay
+195 days	Walter	Pescadero
+206 days	Dana	Cayucos
+217 days	Hilda	Pismo Beach

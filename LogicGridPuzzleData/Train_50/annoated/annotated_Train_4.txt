@@ -1,0 +1,50 @@
+A series of bizarre UFO sightings have taken place in Byron, California this past week. Using only the clues below, match each sighting to its witness, date and location, and determine the reported shape of the unidentified object.
+::witnesses
+Benny Baron
+Edith Estes
+Hal Harrison
+Iva Ingram
+::dates
+August 4
+August 5
+August 6
+August 7
+::towns
+Islesboro
+Long Barn
+Tarzana
+Zearing
+1. The report from Zearing was either the August 4 report or Edith Estes's report.
+2. Hal Harrison's report was submitted sometime after Iva Ingram's sighting.
+3. The August 5 sighting was from Islesboro.
+4. The report from Tarzana was submitted 1 day before the sighting from Islesboro.
+5. Benny Baron's report was received on August 7.
+###
+1 day,3,8,4
+August_4,0,8,7
+August_5,2,2,7
+August_7,4,7,4
+Benny_Baron,4,1,7
+Edith_Estes,0,11,7
+Hal_Harrison,1,1,7
+Islesboro,2,6,7
+Islesboro,3,13,7
+Iva_Ingram,1,8,7
+Tarzana,3,4,7
+Zearing,0,4,7
+report,0,13,7
+report,0,2,7
+report,0,9,7
+report,1,3,7
+report,3,2,7
+report,4,3,7
+sighting,1,10,7
+sighting,2,3,7
+sighting,3,11,7
+
+#######
+
+
+
+
+

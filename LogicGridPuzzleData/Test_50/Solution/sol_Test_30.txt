@@ -1,0 +1,5 @@
+Prices	Runners	Pastas
+$6	Suzanne	taglioni
+$7	Margie	fettuccine
+$8	Florence	spaghetti
+$9	Velma	fusilli

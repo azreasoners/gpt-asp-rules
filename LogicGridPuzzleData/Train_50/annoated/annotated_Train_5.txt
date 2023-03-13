@@ -1,0 +1,58 @@
+The California condor is one of the world's largest and most endangered birds. Several conservation programs have been raising and releasing condors into the wild in an effort to boost their numbers. Using only the clues that follow, determine the age and wingspan of each of the most recently released condors, and determine the location in which each was set free.
+::wingspans
+102 inches
+106 inches
+110 inches
+114 inches
+::names
+Merlin
+Pepper
+Spike
+Sunshine
+::ages
+4
+5
+8
+9
+1. Sunshine is either the condor with a wingspan of 102 inches or the 5-year-old bird.
+2. The condor with a wingspan of 114 inches is 5 years old.
+3. Pepper has a wingspan of 114 inches.
+4. The four condors are the 9-year-old bird, Pepper, Merlin and the condor with a wingspan of 106 inches.
+5. The 9-year-old bird has a wingspan 4 inches shorter than the 4-year-old bird.
+###
+102_inches,0,10,7
+106_inches,3,19,7
+114_inches,1,7,7
+114_inches,2,6,7
+4 inches,4,8,2
+4-year-old,4,12,7
+5 years,1,10,2
+5-year-old,0,13,7
+9-year-old,3,6,7
+9-year-old,4,2,7
+Merlin,3,11,7
+Pepper,2,1,7
+Pepper,3,9,7
+Sunshine,0,1,7
+bird,0,14,4
+bird,3,7,4
+bird,4,13,4
+bird,4,3,4
+condor,0,5,7
+condor,1,2,7
+condor,3,14,7
+condors,3,3,7
+four,3,2,7
+old,1,11,7
+wingspan,0,8,2
+wingspan,1,5,2
+wingspan,2,4,2
+wingspan,3,17,2
+wingspan,4,6,2
+
+#######
+
+referent(1,5,1,10)
+
+members2(3,17,3,7)
+sameGroup(4,3,4,6)@negDiff(4,3,4,13,4,8)

@@ -1,0 +1,5 @@
+Clients	Prices	Masseuses
+Aimee	$170	Nancy
+Ginger	$150	Teri
+Freda	$180	Whitney
+Hannah	$160	Lynda

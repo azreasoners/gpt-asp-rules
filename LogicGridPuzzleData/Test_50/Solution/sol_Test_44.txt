@@ -1,0 +1,5 @@
+diplomats	months	durations
+fitzgerald	february	2 day
+bender	january	3 day
+owens	april	7 day
+quinn	march	9 day

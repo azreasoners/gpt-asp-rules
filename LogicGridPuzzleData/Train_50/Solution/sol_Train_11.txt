@@ -1,0 +1,5 @@
+packsize	brands	names
+25	travelore	arthur
+35	adironda	eugene 
+40	naturba	natasha 
+30	grennel	olga

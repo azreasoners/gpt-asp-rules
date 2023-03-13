@@ -1,0 +1,43 @@
+A number of new space probes were launched this year, each from a different country. Using only the clues that follow, match each probe to the country that launched it, and determine the month it launched and its eventual destination.
+::months
+January
+February
+March
+April
+::probes
+Ateyin
+Chano
+Iunsel
+Munei
+::destinations
+Ganymede
+Mars
+Pluto
+Uranus
+1. The Iunsel launched in February.
+2. The Munei is going to Mars.
+3. The Munei launched 1 month after the mission going to Pluto.
+4. Of the mission going to Ganymede and the mission going to Pluto, one launched in March and the other is the Chano.
+###
+1 month,2,5,2
+Chano,3,23,2
+February,0,5,2
+Ganymede,3,6,6
+Iunsel,0,2,4
+March,3,17,2
+Mars,1,6,6
+Munei,1,2,4
+Munei,2,2,4
+Pluto,2,11,6
+Pluto,3,12,6
+mission,2,8,7
+mission,3,3,7
+mission,3,9,7
+one,3,14,4
+other,3,20,4
+
+#######
+sameGroup(0,2,0,5)
+sameGroup(1,2,1,4)
+sameGroup(2,8,2,9)@posDiff(2,2,2,11,2,5)
+referent22(3,6,3,12,3,14,3,20)@sameGroup(3,14,3,17)@sameGroup(3,20,3,23)

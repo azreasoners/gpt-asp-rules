@@ -1,0 +1,50 @@
+The Winter Olympics have just wrapped up in Norway. Using only the clues that follow, determine the number of gold, silver and bronze medals won by each country.
+::countries
+Dominica
+Jordan
+Venezuela
+Zimbabwe
+::gold medals
+1
+2
+3
+4
+::silver medals
+2
+5
+6
+8
+1. The team from Venezuela finished with 4 gold medals.
+2. The squad that won 2 gold medals ended with 6 silver medals.
+3. The four teams were the squad from Zimbabwe, the team that won 3 gold medals, the squad that won 6 silver medals and the squad that won 8 silver medals.
+4. The team from Dominica ended the games with 1 fewer gold medal than the squad that won 5 silver medals.
+###
+1 medal,3,12,4
+2 gold_medals,1,6,4
+3 gold_medals,2,15,7
+4 gold_medals,0,8,4
+5 silver_medals,3,19,4
+6 silver_medals,1,10,4
+6 silver_medals,2,22,4
+8 silver_medals,2,29,4
+Dominica,3,4,7
+Venezuela,0,4,7
+Zimbabwe,2,8,2
+four,2,2,7
+games,3,7,2
+gold,3,11,4
+squad,1,2,2
+squad,2,18,2
+squad,2,25,2
+squad,2,6,7
+squad,3,15,2
+team,0,2,2
+team,2,11,2
+team,3,2,2
+teams,2,3,7
+
+#######
+sameGroup(0,2,0,8)
+sameGroup(1,2,1,6)@sameGroup(1,2,1,10)
+sameGroup(2,18,2,22)@sameGroup(2,25,2,29)@members4(2,11,2,25,2,18,2,8)
+sameGroup(3,15,3,19)@negDiff(3,2,3,15,3,12)@negDiff(3,7,3,15,3,12)

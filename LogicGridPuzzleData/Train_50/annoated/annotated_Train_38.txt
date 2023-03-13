@@ -1,0 +1,52 @@
+Drissel's Tortoise Farm is a refuge for tortoises from all over the world, many of which can live to be well over 100 years of age. Using only the clues below, match each tortoise on the farm to its species and age, and determine its country of origin.
+::ages
+14
+32
+50
+68
+::tortoises
+Chewie
+Snappy
+Speedy
+Toredo
+::species
+black neck
+horned
+pitch belly
+swoopbacked
+1. Snappy is 18 years younger than the swoopbacked tortoise.
+2. The 68 year old animal is the horned tortoise.
+3. Chewie is 32 years old.
+4. Of Snappy and Toredo, one is 14 years old and the other is the horned tortoise.
+5. The pitch belly tortoise is younger than Chewie.
+###
+14 years,3,9,2
+18 years,0,4,2
+32 years,2,4,2
+68 year,1,3,2
+Chewie,2,1,4
+Chewie,4,7,4
+Snappy,0,1,4
+Snappy,3,2,4
+Toredo,3,4,4
+animal,1,5,4
+horned,1,8,6
+horned,3,16,6
+old,1,4,7
+old,2,5,7
+old,3,10,7
+one,3,6,4
+other,3,13,4
+pitch_belly,4,2,6
+swoopbacked,0,8,6
+tortoise,0,9,4
+tortoise,1,9,4
+tortoise,3,17,4
+tortoise,4,3,4
+
+#######
+negDiff(0,1,0,9,0,4)@sameGroup(0,8,0,9)
+sameGroup(1,3,1,5)@sameGroup(1,5,1,9)@sameGroup(1,8,1,9)
+sameGroup(2,1,2,4)
+referent22(3,2,3,4,3,6,3,13)@sameGroup(3,6,3,9)@referent(3,13,3,17)@sameGroup(3,16,3,17)
+lessThan(4,3,4,7,X,X)

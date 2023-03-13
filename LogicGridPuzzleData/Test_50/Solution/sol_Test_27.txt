@@ -1,0 +1,5 @@
+Prices	Resorts	Islands
+$175	Regal Park	Barbados
+$195	El Pacifico	Martinique
+$215	Grand Echo	St. Barts
+$235	Emerald View	Anguilla

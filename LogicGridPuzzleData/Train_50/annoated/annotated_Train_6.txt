@@ -1,0 +1,74 @@
+Abbie is writing an article about some of the top-selling mobile apps released in the past year. Using only the clues that follow, help her match each app to its developer, month or release and estimated number of sales.
+::games
+Angry Ants
+Bubble Bombs
+Flowcarts
+Peter Parka
+Wizard World
+::months
+March
+April
+May
+June
+July
+::developers
+Apptastic
+Digibits
+Gadingo
+Novio
+Vortia
+1. The app released by Vortia was released 2 months later than Flowcarts.
+2. Angry Ants was released 3 months later than the app released by Gadingo.
+3. The game released by Apptastic was released 3 months later than Flowcarts.
+4. The game released by Novio is either the game released in July or Bubble Bombs.
+5. Peter Parka is either the app released by Novio or the game released in May.
+6. The game released in July was made by Apptastic.
+###
+2 months,0,9,4
+3 months,1,5,4
+3 months,2,9,4
+Angry_Ants,1,1,2
+Apptastic,2,5,6
+Apptastic,5,9,6
+Bubble_Bombs,3,14,2
+Flowcarts,0,12,2
+Flowcarts,2,12,2
+Gadingo,1,12,6
+July,3,12,4
+July,5,5,4
+May,4,14,4
+Novio,3,5,6
+Novio,4,8,6
+Peter_Parka,4,1,2
+Vortia,0,5,6
+app,0,2,2
+app,1,9,2
+app,4,5,2
+game,2,2,2
+game,3,2,2
+game,3,9,2
+game,4,11,2
+game,5,2,2
+later,0,10,7
+later,1,6,7
+later,2,10,7
+made,5,7,7
+released,0,3,7
+released,0,7,7
+released,1,10,7
+released,1,3,7
+released,2,3,7
+released,2,7,7
+released,3,10,7
+released,3,3,7
+released,4,12,7
+released,4,6,7
+released,5,3,7
+
+#######
+sameGroup(0,2,0,5)@posDiff(0,2,0,12,0,9)
+sameGroup(1,9,1,12)@posDiff(1,1,1,9,1,5)
+sameGroup(2,2,2,5)@posDiff(2,2,2,12,2,9)
+sameGroup(3,2,3,5)@sameGroup(3,9,3,12)@eitherOr12(3,2,3,9,3,14)
+sameGroup(4,5,4,8)@sameGroup(4,11,4,14)@eitherOr12(4,1,4,5,4,11)
+sameGroup(5,2,5,5)@sameGroup(5,2,5,9)

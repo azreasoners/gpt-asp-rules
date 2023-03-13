@@ -1,0 +1,5 @@
+players	goals	teams
+ingram	7	checkers
+underwood	6	comets
+parrish	9	ice hogs
+quinn	8	monsters

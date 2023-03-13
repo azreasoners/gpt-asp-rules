@@ -1,0 +1,39 @@
+The Norfolk Times recently sponsored a "Sail Around the World" race that pitted dozens of sailors against each other to see who could circumnavigate the globe, solo, in the fewest number of days. Using only the clues below, match each sailor who actually finished the race to his or her boat and boat type, and determine how many days it took them to complete their circumnavigation.
+::days
+270
+274
+278
+282
+::boat types
+catamaran
+ketch
+schooner
+trimaran
+::sailors
+Debra Decker
+Gil Baxter
+Vicky Estes
+Wendell Orr
+1. Vicky Estes used the catamaran.
+2. Debra Decker took 4 fewer days to finish than the sailor in the trimaran.
+3. Wendell Orr finished in 278 days.
+4. The competitor in the schooner took 4 more days to finish than Vicky Estes.
+###
+278 days,2,5,2
+4 days,1,5,2
+4 days,3,9,2
+Debra_Decker,1,1,6
+Vicky_Estes,0,1,6
+Vicky_Estes,3,13,6
+Wendell_Orr,2,1,6
+catamaran,0,4,4
+competitor,3,2,6
+sailor,1,10,6
+schooner,3,5,4
+trimaran,1,13,4
+
+#######
+sameGroup(0,1,0,4)
+sameGroup(1,10,1,13)@negDiff(1,1,1,10,1,5)
+sameGroup(2,1,2,5)
+sameGroup(3,2,3,5)@posDiff(3,2,3,13,3,9)

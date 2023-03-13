@@ -1,0 +1,5 @@
+craters	diameters	periods
+cersay	175 meters	cambrian
+kimeta	100 meters	devonian
+asanish	125 meters	jurassic
+garight	150 meters	ordovician)

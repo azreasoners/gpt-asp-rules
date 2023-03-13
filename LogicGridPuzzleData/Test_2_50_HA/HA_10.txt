@@ -1,0 +1,22 @@
+Julia has hired several new people to work as ride-managers for Walton World Amusement Park. She needs to check on their results after their first full day at work. Help her match each new employee to their ride and section of the park (broken down by color), as well as the number of people each served during that day.
+::employees
+Brett
+Peter
+Victor
+Willis
+::rides
+50 riders			
+75 riders			
+100 riders			
+125 riders			
+::section
+blue			
+green			
+orange			
+yellow
+
+1. The worker who works in the green section served more riders than Brett.
+2. Peter served 25 fewer riders than Willis.
+3. Brett served more riders than Peter.
+4. The person who works in the yellow section served 25 more riders than the worker who works in the orange section.
+5. Peter is either the person who served 125 riders or the person who works in the blue section.

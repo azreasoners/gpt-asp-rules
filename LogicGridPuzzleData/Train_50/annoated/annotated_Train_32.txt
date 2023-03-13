@@ -1,0 +1,44 @@
+The Gerber County Paintball League has just completed its 10th season. Help the league secretary finalize this year's standings by matching each team to its color, hometown, and final ranking.
+::rankings
+first
+second
+third
+fourth
+::teams
+Color Blinds
+Night Ninjas
+Oil Crew
+Target Bombs
+::colors
+green
+orange
+purple
+white
+1. The Color Blinds finished first.
+2. The Color Blinds was ranked 1 place ahead of the green team.
+3. The Target Bombs uses white paintballs.
+4. Of the Oil Crew and the orange team, one finished third and the other finished second.
+###
+1 place,1,6,2
+Color_Blinds,0,2,4
+Color_Blinds,1,2,4
+Oil_Crew,3,3,4
+Target_Bombs,2,2,4
+finished,3,15,7
+first,0,4,2
+green,1,10,6
+one,3,9,4
+orange,3,6,6
+other,3,14,4
+paintballs,2,5,7
+second,3,16,2
+team,1,11,4
+team,3,7,4
+third,3,11,2
+white,2,4,6
+
+#######
+sameGroup(0,2,0,4)
+sameGroup(1,10,1,11)@negDiff(1,2,1,11,1,6)
+sameGroup(2,2,2,4)
+sameGroup(3,6,3,7)@sameGroup(3,14,3,16)@sameGroup(3,9,3,11)@referent22(3,3,3,6,3,9,3,14)

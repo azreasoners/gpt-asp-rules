@@ -1,0 +1,5 @@
+Times	Children	Rooms
+8:00am	Kay	mud room
+9:00am	Henrietta	laundry room
+10:00am	Jack	living room
+11:00am	Zachary	dining room

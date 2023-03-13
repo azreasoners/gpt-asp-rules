@@ -1,0 +1,23 @@
+Some of the top students at Middletown High School received college scholarships this week. Figure out the size of each student's scholarship, as well as the schools they will be attending next year and the subject they will be majoring in.
+::names
+Erma
+Hattie
+Ora
+Tracy
+::scholarships
+$25,000			
+$30,000			
+$35,000			
+$40,000
+::majors
+Archaeology			
+English			
+Physics			
+Theology
+
+
+1. Hattie and the student who will major in Theology are different students.
+2. The student who will major in English is either Tracy or the student who received the $25,000 scholarship.
+3. Hattie was awarded $10,000 more than the person who will major in Physics.
+4. The student who received the $40,000 scholarship will major in Theology.
+5. Ora was awarded some amount less than the student who will major in Archaeology.

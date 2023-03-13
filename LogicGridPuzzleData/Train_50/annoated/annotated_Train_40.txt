@@ -1,0 +1,46 @@
+Professor Barrie is an impact crater specialist at the University of Dusseldorf. Help him with his research by matching each of the listed impact craters to its size (diameter in meters), geological period, and the country in which it was found.
+::craters
+Asanish
+Cersay
+Garight
+Kimeta
+::diameters
+100 meters
+125 meters
+150 meters
+175 meters
+::periods
+Cambrian
+Devonian
+Jurassic
+Ordovician
+1. The Garight crater is 150 meters wide.
+2. The Cersay crater was formed during the Cambrian period.
+3. The Cersay crater is 50 meters wider than the Jurassic crater.
+4. The Asanish crater is 25 meters smaller than the Ordovician crater.
+###
+150_meters,0,5,4
+25 meters,3,6,4
+50 meters,2,6,4
+Asanish,3,2,2
+Cambrian,1,8,6
+Cersay,1,2,2
+Cersay,2,2,2
+Garight,0,2,2
+Jurassic,2,10,6
+Ordovician,3,10,6
+crater,0,3,2
+crater,1,3,2
+crater,2,11,2
+crater,2,3,2
+crater,3,11,2
+crater,3,3,2
+formed,1,5,7
+period,1,9,6
+wide,0,6,7
+
+#######
+referent(0,2,0,3)@sameGroup(0,3,0,5)
+referent(1,2,1,3)@sameGroup(1,3,1,9)@referent(1,8,1,9)
+referent(2,2,2,3)@posDiff(2,3,2,11,2,6)@sameGroup(2,10,2,11)
+referent(3,2,3,3)@sameGroup(3,10,3,11)@negDiff(3,3,3,11,3,6)

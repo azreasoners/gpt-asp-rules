@@ -1,0 +1,22 @@
+Waterford Spa had a full appointment calendar booked today. Help Janice figure out the schedule by matching each masseuse to her client, and determine the type of massage and total price for each.
+::clients
+Beulah
+Debra
+Ginger
+Hannah
+::prices
+$150			
+$160			
+$170			
+$180	
+::masseuses
+Lynda			
+Pam			
+Vicki			
+Yvonne
+
+1. Ginger was either the person who paid $160 or Vicki's client.
+2. Beulah paid 10 dollars more than Yvonne's client.
+3. Hannah paid less than Debra.
+4. Vicki's client paid more than Debra.
+5. Debra paid less than Pam's client.

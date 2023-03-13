@@ -1,0 +1,5 @@
+Days	Names	Departures
+June 10	Francis	Kent
+June 11	Vernon	Leland
+June 12	Luke	Indio
+June 13	Roderick	Hardwick

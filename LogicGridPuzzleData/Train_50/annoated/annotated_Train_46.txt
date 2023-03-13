@@ -1,0 +1,67 @@
+Jack has added several new jigsaw puzzles to his sizable collection this year. Determine each puzzle's size (number of pieces), theme, issuing year and company.
+::companies
+Buralde
+Denlend
+Irycia
+Kimsight
+::pieces
+250
+500
+750
+1000
+::themes
+autumn leaves
+coral reef
+outer space
+rustic village
+1. The puzzle with the autumn leaves theme has somewhat more than the jigsaw puzzle with the rustic village theme.
+2. The four puzzles are the puzzle made by Buralde, the jigsaw puzzle with the rustic village theme, the puzzle with the autumn leaves theme and the puzzle with 1000 pieces.
+3. The jigsaw puzzle made by Buralde has the outer space theme.
+4. The jigsaw puzzle made by Denlend has somewhat fewer than the jigsaw puzzle with the outer space theme.
+5. The jigsaw puzzle made by Kimsight has 250 more pieces than the puzzle made by Denlend.
+###
+1000 pieces,1,30,4
+250 pieces,4,10,4
+Buralde,1,9,7
+Buralde,2,6,6
+Denlend,3,6,6
+Denlend,4,16,6
+Kimsight,4,6,6
+autumn_leaves,0,5,7
+autumn_leaves,1,23,7
+four,1,2,7
+jigsaw,0,12,7
+jigsaw,1,12,7
+jigsaw,2,2,7
+jigsaw,3,12,7
+jigsaw,3,2,7
+jigsaw,4,2,7
+outer_space,2,9,7
+outer_space,3,16,7
+puzzle,0,13,6
+puzzle,0,2,6
+puzzle,1,13,6
+puzzle,1,20,6
+puzzle,1,27,6
+puzzle,1,6,6
+puzzle,2,3,6
+puzzle,3,13,6
+puzzle,3,3,6
+puzzle,4,13,6
+puzzle,4,3,6
+puzzles,1,3,7
+rustic_village,0,16,7
+rustic_village,1,16,7
+theme,0,17,6
+theme,0,6,6
+theme,1,17,6
+theme,1,24,6
+theme,2,10,6
+theme,3,17,6
+
+#######
+referent(0,13,0,17)@greaterThan(0,2,0,17,X,X)@greaterThan(0,2,0,13,X,X)@greaterThan(0,6,0,13,X,X)
+sameGroup(1,27,1,30)@members4(1,13,1,27,1,6,1,20)
+referent(2,3,2,6)@referent(2,3,2,10)
+referent(3,13,3,17)@lessThan(3,3,3,17,X,X)@lessThan(3,3,3,13,X,X)@lessThan(3,6,3,13,X,X)
+posDiff(4,3,4,13,4,10)

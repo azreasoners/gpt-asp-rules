@@ -1,0 +1,5 @@
+runners	times	colors
+zachary	24	aquamarine 
+ted	23	black 
+salvador	22	cyan 
+franklin	21	maroon

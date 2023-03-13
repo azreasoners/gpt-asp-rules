@@ -1,0 +1,52 @@
+Help Jackie research her article on the oldest living people in America by matching each centenarian to their age, hometown and state.
+::names
+Arlene
+Ernesto
+Kyle
+Willard
+::ages
+109 years
+110 years
+111 years
+112 years
+::states
+Kansas
+Louisiana
+Pennsylvania
+South Dakota
+1. Kyle is 1 year older than Arlene.
+2. Kyle, the centenarian who is 109 years old and the person who is 110 years old are all different people.
+3. The Pennsylvania native is older than Ernesto.
+4. Ernesto is older than the Louisiana native.
+5. The person who is 111 years old is a native of South Dakota.
+###
+1 year,0,4,4
+109_years,1,7,4
+110_years,1,14,4
+111_years,4,5,4
+Arlene,0,7,2
+Ernesto,2,7,2
+Ernesto,3,1,2
+Kyle,0,1,2
+Kyle,1,1,2
+Louisiana,3,6,6
+Pennsylvania,2,2,6
+South_Dakota,4,11,6
+centenarian,1,4,2
+different,1,18,7
+native,2,3,2
+native,3,7,2
+native,4,9,2
+old,1,15,7
+old,1,8,7
+old,4,6,7
+people,1,19,7
+person,1,11,2
+person,4,2,2
+
+#######
+posDiff(0,1,0,7,0,4)
+sameGroup(1,4,1,7)@sameGroup(1,11,1,14)@diffGroup(1,4,1,11)@diffGroup(1,1,1,4)@diffGroup(1,1,1,11)
+sameGroup(2,2,2,3)@greaterThan(2,3,2,7,X,X)
+sameGroup(3,6,3,7)@greaterThan(3,1,3,7,X,X)
+sameGroup(4,9,4,11)@sameGroup(4,2,4,5)@referent(4,2,4,9)

@@ -1,0 +1,5 @@
+Scores	Chefs	Dishes
+42	Peggy	cashew tofu
+49	Nelson	lemon snapper
+56	Karl	smoked pork
+63	Rosalie	cajun chili

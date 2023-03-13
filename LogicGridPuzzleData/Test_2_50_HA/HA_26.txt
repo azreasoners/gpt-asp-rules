@@ -1,0 +1,24 @@
+Abe and Edna's children have a set list of rooms that must be cleaned every Sunday at specific times. Using only the clues below, match each child to his or her assigned room and time, and determine how much allowance each is given as a result.
+::children
+Henrietta
+Jack
+Kay
+Zachary
+::times
+8:00am			
+9:00am			
+10:00am			
+11:00am		
+::rooms
+dining room			
+laundry room			
+living room			
+mud room
+
+
+1. Henrietta's job is either the chore that starts at 9:00am or the chore that starts at 8:00am.
+2. Jack's task is either the job that starts at 8:00am or the living room assignment.
+3. Jack's job starts at 10:00am.
+4. Kay's chore starts at 8:00am.
+5. Jack's assignment starts 2 hours after the mud room assignment.
+6. The laundry room assignment, the chore that starts at 8:00am and the chore that starts at 11:00am are all different jobs.

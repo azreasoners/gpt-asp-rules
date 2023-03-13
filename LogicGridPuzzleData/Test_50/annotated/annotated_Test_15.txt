@@ -1,0 +1,48 @@
+Bill and Judy always come to the Western Rock and Mineral Show each year to add a few new gem showpieces to their collection. Using only the clues below, match each of their purchases to the claim and state in which it was found, and determine the price of each.
+::prices
+$790
+$800
+$810
+$820
+::gems
+aquamarine
+blue topaz
+rhodolite
+tourmaline
+::claims
+Collins
+Knox
+Osborne
+Underwood
+1. The blue topaz sold for 10 dollars more than the gem found in the Osborne claim.
+2. The rhodolite went for $820.
+3. The tourmaline is either the gem that sold for $810 or the gem found in the Underwood claim.
+4. Of the gem found in the Collins claim and the aquamarine, one went for $790 and the other went for $800.
+###
+10 dollars,0,6,2
+790 $,3,16,2
+800 $,3,23,2
+810 $,2,10,2
+820 $,1,5,2
+Collins,3,7,6
+Osborne,0,14,6
+Underwood,2,18,6
+aquamarine,3,11,4
+blue_topaz,0,2,4
+claim,0,15,6
+claim,2,19,6
+claim,3,8,6
+gem,0,10,4
+gem,2,14,4
+gem,2,6,4
+gem,3,3,4
+one,3,13,4
+other,3,20,4
+rhodolite,1,2,4
+tourmaline,2,2,4
+
+#######
+sameGroup(0,10,0,15)@referent(0,14,0,15)@posDiff(0,2,0,10,0,6)
+sameGroup(1,2,1,5)
+referent(2,18,2,19)@sameGroup(2,14,2,19)@sameGroup(2,6,2,10)@eitherOr12(2,2,2,6,2,14)
+sameGroup(3,13,3,16)@sameGroup(3,20,3,23)@referent22(3,3,3,11,3,13,3,20)@referent(3,3,3,8)@sameGroup(3,7,3,8)

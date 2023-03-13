@@ -1,0 +1,5 @@
+names	ages	states
+ernesto	110 years	kansas 
+willard	109 years	louisiana 
+kyle	112 years	pennsylvania 
+arlene	111 years	south dakota

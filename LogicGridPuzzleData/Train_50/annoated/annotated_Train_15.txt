@@ -1,0 +1,51 @@
+Michael is compiling a story about some of the top-rated local soccer players of all time. Help him by matching each player to his team, starting year and position.
+::players
+Awad
+Daregh
+Gardelli
+Rothvum
+::years
+1976
+1979
+1982
+1985
+::positions
+center back
+center forward
+goalie
+sweeper
+1. Daregh started 6 years before the goalie.
+2. The player who started in 1982 was either the goalie or Daregh.
+3. Awad began playing in 1985.
+4. The player who started in 1976 was the sweeper.
+5. Gardelli was either the center back or the player who started in 1979.
+###
+1976,3,6,4
+1979,4,12,4
+1982,1,6,4
+1985,2,5,4
+6 years,0,4,4
+Awad,2,1,2
+Daregh,0,1,2
+Daregh,1,12,2
+Gardelli,4,1,2
+began,2,2,7
+center_back,4,5,6
+goalie,0,7,6
+goalie,1,10,6
+player,1,2,2
+player,3,2,2
+player,4,8,2
+playing,2,3,7
+started,0,2,7
+started,1,4,7
+started,3,4,7
+started,4,10,7
+sweeper,3,9,6
+
+#######
+negDiff(0,1,0,7,0,4)
+sameGroup(1,2,1,6)@eitherOr12(1,2,1,10,1,12)
+sameGroup(2,1,2,5)
+sameGroup(3,2,3,6)@sameGroup(3,2,3,9)
+sameGroup(4,8,4,12)@eitherOr12(4,1,4,5,4,8)

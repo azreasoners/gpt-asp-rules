@@ -1,0 +1,54 @@
+A series of bizarre UFO sightings have taken place in Byron, California this past week. Using only the clues below, match each sighting to its witness, date and location, and determine the reported shape of the unidentified object.
+::witnesses
+Benny Baron
+Dan Delgado
+Edith Estes
+Gil Gates
+::dates
+August 4
+August 5
+August 6
+August 7
+::towns
+Crescent City
+Embden
+Islesboro
+Walnut Creek
+1. Benny Baron's sighting was submitted 2 days after Dan Delgado's report.
+2. Of the August 7 report and the August 5 sighting, one was reported by Gil Gates and the other was from Walnut Creek.
+3. The report from Crescent City was submitted 1 day after the sighting from Islesboro.
+4. The sighting from Walnut Creek was either the August 7 report or Edith Estes's sighting.
+###
+1 day,2,8,4
+2 days,0,7,4
+August_5,1,7,4
+August_7,1,3,4
+August_7,3,8,4
+Benny_Baron,0,1,2
+Crescent_City,2,4,6
+Dan_Delgado,0,9,2
+Edith_Estes,3,11,2
+Gil_Gates,1,14,2
+Islesboro,2,13,6
+Walnut_Creek,1,20,6
+Walnut_Creek,3,4,6
+one,1,10,4
+other,1,17,4
+report,0,11,7
+report,1,4,7
+report,2,2,7
+report,3,9,7
+reported,1,12,7
+sighting,0,3,7
+sighting,1,8,7
+sighting,2,11,7
+sighting,3,13,7
+sighting,3,2,7
+submitted,0,5,7
+submitted,2,6,7
+
+#######
+posDiff(0,1,0,9,0,7)
+sameGroup(1,10,1,14)@sameGroup(1,17,1,20)@referent22(1,3,1,7,1,10,1,17)
+posDiff(2,4,2,13,2,8)
+eitherOr12(3,4,3,8,3,11)

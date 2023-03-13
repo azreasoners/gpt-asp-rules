@@ -1,0 +1,5 @@
+APR	Credit Cards	Credit Limits
+8%	Credit Korp	$5,000
+9%	Southwest Inc	$2,000
+10%	Mid Atlantic	$4,000
+11%	TrustCo	$20,000

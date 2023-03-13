@@ -1,0 +1,55 @@
+Waterford Spa had a full appointment calendar booked today. Help Janice figure out the schedule by matching each masseuse to her client, and determine the total price for each.
+::Clients
+Aimee
+Ginger
+Freda
+Hannah
+::Prices
+$150
+$160
+$170
+$180
+::Masseuses
+Lynda
+Nancy
+Teri
+Whitney
+1. Hannah paid more than Teri's client.
+2. Freda paid 20 dollars more than Lynda's client.
+3. Hannah paid 10 dollars less than Nancy's client.
+4. Nancy's client, Hannah and Ginger were all different clients.
+5. Hannah was either the person who paid $180 or Lynda's client.
+###
+10 dollars,2,4,4
+180 $,4,8,4
+20 dollars,1,4,4
+Freda,1,1,2
+Ginger,3,7,2
+Hannah,0,1,2
+Hannah,2,1,2
+Hannah,3,5,2
+Hannah,4,1,2
+Lynda,1,7,6
+Lynda,4,11,6
+Nancy,2,7,6
+Nancy,3,1,6
+Teri,0,5,6
+client,0,7,2
+client,1,9,2
+client,2,9,2
+client,3,3,2
+client,4,13,2
+clients,3,11,1
+different,3,10,7
+paid,0,2,7
+paid,1,2,7
+paid,2,2,7
+paid,4,7,7
+person,4,5,2
+
+#######
+sameGroup(0,5,0,7)@greaterThan(0,1,0,7,X,X)
+sameGroup(1,7,1,9)@posDiff(1,1,1,9,1,4)
+sameGroup(2,7,2,9)@negDiff(2,1,2,9,2,4)
+sameGroup(3,1,3,3)@diffGroup(3,3,3,5)@diffGroup(3,1,3,7)@diffGroup(3,5,3,7)
+sameGroup(4,5,4,8)@sameGroup(4,11,4,13)@eitherOr12(4,1,4,11,4,5)

@@ -1,0 +1,52 @@
+Biogenica Inc. is a biotechnology firm that has successfully sequenced the genomes of a number of different types of bacteria this year. Using only the clues below, match each bacteria to its number of total genes, and determine the name of the doctor who sequenced its genome and the month in which it was completed.
+::genes
+250
+500
+750
+1000
+::bacteria
+B. mangeris
+D. forcilitis
+E. carolinus
+P. wellington
+::doctors
+Jordan
+Nielsen
+Ortiz
+Trujillo
+1. D. forcilitis has 500 genes.
+2. B. mangeris was either the one sequenced by Dr. Ortiz or the organism with 750 genes.
+3. The organism sequenced by Dr. Trujillo has 500 more genes than the bacteria sequenced by Dr. Nielsen.
+4. Of the bacteria sequenced by Dr. Jordan and the bacteria sequenced by Dr. Trujillo, one has 1000 genes and the other is E. carolinus.
+###
+1000 genes,3,19,2
+500 genes,0,4,7
+500 genes,2,10,7
+750 genes,1,15,2
+B_mangeris,1,1,4
+D_forcilitis,0,1,4
+Dr.,1,8,7
+Dr.,2,16,7
+Dr.,2,5,7
+Dr.,3,13,7
+Dr.,3,6,7
+E_carolinus,3,24,4
+Jordan,3,7,6
+Nielsen,2,17,6
+Ortiz,1,9,6
+Trujillo,2,6,6
+Trujillo,3,14,6
+bacteria,2,13,4
+bacteria,3,10,4
+bacteria,3,3,4
+one,1,5,4
+one,3,16,4
+organism,1,12,4
+organism,2,2,4
+other,3,22,4
+
+#######
+sameGroup(0,1,0,4)
+sameGroup(1,5,1,9)@eitherOr12(1,1,1,12,1,5)@sameGroup(1,12,1,15)
+sameGroup(2,13,2,17)@posDiff(2,2,2,13,2,10)@sameGroup(2,2,2,6)
+sameGroup(3,16,3,19)@sameGroup(3,3,3,7)@sameGroup(3,10,3,14)@sameGroup(3,22,3,24)@referent22(3,3,3,10,3,16,3,22)

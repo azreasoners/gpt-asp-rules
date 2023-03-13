@@ -1,0 +1,53 @@
+This year's All-Star Hockey Team has a number of top players from all across the national league. Match each player to his team and jersey number, and determine how many goals he has scored this past season.
+::players
+Ingram
+Parrish
+Quinn
+Underwood
+::goals
+6
+7
+8
+9
+::teams
+Checkers
+Comets
+Ice Hogs
+Monsters
+1. Ingram had 7 goals this season.
+2. The four players are Underwood, the player from the Ice Hogs, the player from the Monsters and the player from the Checkers.
+3. Parrish scored 1 goal more than Quinn.
+4. The player with 9 goals is from the Ice Hogs.
+5. Ingram is either the player from the Checkers or the player with 6 goals.
+###
+1 goal,2,4,4
+6 goals,4,14,4
+7 goals,0,4,4
+9 goals,3,5,4
+Checkers,1,23,6
+Checkers,4,8,6
+Ice_Hogs,1,11,6
+Ice_Hogs,3,9,6
+Ingram,0,1,2
+Ingram,4,1,2
+Monsters,1,17,6
+Parrish,2,1,2
+Quinn,2,7,2
+Underwood,1,5,2
+four,1,2,7
+player,1,14,2
+player,1,20,2
+player,1,8,2
+player,3,2,2
+player,4,11,2
+player,4,5,2
+players,1,3,1
+scored,2,2,7
+season,0,6,7
+
+#######
+sameGroup(0,1,0,4)
+sameGroup(1,14,1,17)@sameGroup(1,20,1,23)@sameGroup(1,8,1,11)@members4(1,14,1,5,1,8,1,20)
+posDiff(2,1,2,7,2,4)
+sameGroup(3,2,3,5)@sameGroup(3,2,3,9)
+sameGroup(4,5,4,8)@sameGroup(4,11,4,14)@eitherOr12(4,1,4,5,4,11)

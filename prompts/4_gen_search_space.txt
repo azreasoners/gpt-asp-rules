@@ -1,0 +1,41 @@
+Given some categorized constants in the form "category: constant_1; constant_2; ...; constant_n" and some predicates about the relation among different categories of constants, write ASP (Answer Set Programming) rules to generate the search space of possible relations.
+
+Constants:
+number: 1; 2; 3; 4; 5; 6; 7; 8.
+
+Predicates:
+% The categories include number. Note that we must use different variables in each predicate.
+% We assign a queen at row N1 and column N2, where N1 belongs to number and N2 belongs to number.
+assign(N1, N2)
+
+ASP Rules:
+% Define the constants in each category.
+number(1; 2; 3; 4; 5; 6; 7; 8).
+% For each row N1, there is exactly 1 queen assigned at some column N2.
+{assign(N1, N2): number(N2)}=1 :- number(N1).
+
+Constants:
+employee: "Bonita"; "Yvette"; "Tabitha".
+price: 225; 275; 325.
+wood_type: "ash"; "poplar"; "sandalwood".
+
+Predicates:
+% The categories include employee, price, and wood_type. We use different variables E, P, and W to represent employee, price, and wood_type.
+% We match an employee E with price P and wood type W, where E belongs to employee, P belongs to price, and W belongs to wood_type.
+match(E, P, W)
+
+ASP Rules:
+% Define the constants in each category.
+employee("Bonita"; "Yvette"; "Tabitha").
+price(225; 275; 325).
+wood_type("ash"; "poplar"; "sandalwood").
+% For each employee E, it matches with exactly 1 price P and 1 wood type W.
+{match(E, P, W): price(P), wood_type(W)}=1 :- employee(E).
+
+Constants:
+<CONSTANTS>
+
+Predicates:
+<PREDICATES>
+
+ASP rules:

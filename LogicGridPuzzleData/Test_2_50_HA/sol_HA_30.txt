@@ -1,0 +1,5 @@
+Decibels	Sirens	Years
+100 decibels	Rip Tide	1996
+105 decibels	Viking 5	2009
+110 decibels	Soundarm	1997
+115 decibels	Armor-Stop	2000

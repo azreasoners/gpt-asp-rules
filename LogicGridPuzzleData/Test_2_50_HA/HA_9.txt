@@ -1,0 +1,22 @@
+Jack has added several new jigsaw puzzles to his sizable collection this year. Determine each puzzle's size (number of pieces), theme, issuing year and company.
+::companies
+Buralde
+Denlend
+Irycia
+Kimsight
+::pieces
+250			
+500			
+750			
+1000	
+::themes
+autumn leaves			
+coral reef			
+outer space			
+rustic village
+
+1. The puzzle with the autumn leaves theme has somewhat more than the jigsaw puzzle with the rustic village theme.
+2. The four puzzles are the puzzle made by Buralde, the jigsaw puzzle with the rustic village theme, the puzzle with the autumn leaves theme and the puzzle with 1000 pieces.
+3. The jigsaw puzzle made by Buralde has the outer space theme.
+4. The jigsaw puzzle made by Denlend has somewhat fewer than the jigsaw puzzle with the outer space theme.
+5. The jigsaw puzzle made by Kimsight has 250 more pieces than the puzzle made by Denlend.

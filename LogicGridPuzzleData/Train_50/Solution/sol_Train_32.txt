@@ -1,0 +1,5 @@
+Rankings	Teams	Colors
+first	Color Blinds	purple
+second	Oil Crew	green
+third	Night Ninjas	orange
+fourth	Target Bombs	white

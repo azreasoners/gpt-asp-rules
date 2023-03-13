@@ -1,0 +1,22 @@
+Porter is a "tiny home" enthusiast - he builds small, portable homes and sells them to others interested in the movement. Using only the clues below, determine the size and cost of each of his customer's tiny homes, as well as the city it will be delivered to.
+::customers
+Ewing
+Kirby
+Nielsen
+Whitehead
+::sq footage
+95 sq ft			
+110 sq ft			
+125 sq ft			
+140 sq ft			
+::prices
+$27,500			
+$29,000			
+$32,250			
+$35,000
+
+1. The Nielsen's house is 30 sq ft larger than the $35,000 structure.
+2. The 125 sq ft home is either the Whitehead's home or the $32,250 home.
+3. The Whitehead's house sold for $29,000.
+4. The Ewing's home sold for $32,250.
+5. The $29,000 house is somewhat smaller than the $32,250 structure.

@@ -1,0 +1,46 @@
+The Gerber County Paintball League has just completed its 10th season. Help the league secretary finalize this year's standings by matching each team to its color, hometown, and final ranking.
+::rankings
+first
+second
+third
+fourth
+::teams
+Color Blinds
+Splat Squad
+Spray Paints
+Target Bombs
+::colors
+blue
+orange
+white
+yellow
+1. The Splat Squad was ranked 1 place behind the blue team.
+2. Of the Spray Paints and the white team, one finished first and the other finished fourth.
+3. The orange team is either the Color Blinds or the Target Bombs.
+4. The blue team was ranked 1 place behind the Target Bombs.
+###
+1 place,0,6,2
+1 place,3,7,2
+Color_Blinds,2,7,4
+Splat_Squad,0,2,4
+Spray_Paints,1,3,4
+Target_Bombs,2,10,4
+Target_Bombs,3,10,4
+blue,0,9,6
+blue,3,2,6
+first,1,11,2
+fourth,1,16,2
+one,1,9,4
+orange,2,2,6
+other,1,14,4
+team,0,10,4
+team,1,7,4
+team,2,3,4
+team,3,3,4
+white,1,6,6
+
+#######
+sameGroup(0,9,0,10)@posDiff(0,2,0,10,0,6)
+sameGroup(1,6,1,7)@sameGroup(1,14,1,16)@sameGroup(1,9,1,11)@referent22(1,3,1,6,1,9,1,14)
+sameGroup(2,2,2,3)@eitherOr12(2,2,2,7,2,10)
+sameGroup(3,2,3,3)@posDiff(3,3,3,10,3,7)

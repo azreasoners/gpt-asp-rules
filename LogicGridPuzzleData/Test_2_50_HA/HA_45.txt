@@ -1,0 +1,21 @@
+Pelican Bay College is sending a number of graduate students out to sea, each to study a different species of shark. Using only the clues that follow, match each student to his or her ship and shark species, and determine the month in which their project will begin.
+::students
+Darryl
+Gene
+Lauren
+Stacy
+::months
+March			
+April			
+May			
+June
+::ships
+Liberty			
+Osprey			
+Pegasus			
+Serenity			
+
+1. The project on the Serenity starts 1 month after Stacy's project.
+2. Darryl's project starts 1 month after Gene's assignment.
+3. The study beginning in April is either the study on the Liberty or the project on the Pegasus.
+4. Lauren's project is on the Pegasus.

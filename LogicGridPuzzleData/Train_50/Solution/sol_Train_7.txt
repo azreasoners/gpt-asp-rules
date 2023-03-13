@@ -1,0 +1,5 @@
+Vintages	Wines	Types
+1984	Luzagueil	chardonnay
+1988	Friambliss	syrah
+1992	Annata Branco	merlot
+1996	Zifennwein	pinot gris

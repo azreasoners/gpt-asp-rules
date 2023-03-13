@@ -1,0 +1,56 @@
+Julia has hired several new people to work as ride-managers for Walton World Amusement Park. She needs to check on their results after their first full day at work. Help her match each new employee to their ride and section of the park (broken down by color), as well as the number of people each served during that day.
+::employees
+Herbert
+Marc
+Nathan
+Victor
+::riders
+50 riders
+75 riders
+100 riders
+125 riders
+::section
+green
+pink
+purple
+red
+1. Herbert served 25 fewer riders than Marc.
+2. The worker who served 125 riders works in the red section.
+3. Of the person who works in the pink section and the person who served 100 riders, one is Herbert and the other is Marc.
+4. Victor is either the employee who served 50 riders or the employee who works in the purple section.
+###
+100_riders,2,15,4
+125_riders,1,5,4
+25 riders,0,5,4
+50_riders,3,8,4
+Herbert,0,1,2
+Herbert,2,19,2
+Marc,0,7,2
+Marc,2,24,2
+Victor,3,1,2
+employee,3,11,2
+employee,3,5,2
+one,2,17,2
+other,2,22,2
+person,2,12,2
+person,2,3,2
+pink,2,8,6
+purple,3,16,6
+red,1,9,6
+section,1,10,6
+section,2,9,6
+section,3,17,6
+served,0,2,7
+served,1,4,7
+served,2,14,7
+served,3,7,7
+worker,1,2,2
+works,1,6,7
+works,2,5,7
+works,3,13,7
+
+#######
+negDiff(0,1,0,7,0,5)
+referent(1,9,1,10)@sameGroup(1,2,1,5)@sameGroup(1,2,1,10)
+sameGroup(2,12,2,15)@sameGroup(2,3,2,9)@referent(2,8,2,9)@referent22(2,3,2,12,2,17,2,22)@referent(2,17,2,19)@referent(2,22,2,24)
+sameGroup(3,11,3,17)@sameGroup(3,5,3,8)@referent(3,16,3,17)@eitherOr12(3,1,3,5,3,11)

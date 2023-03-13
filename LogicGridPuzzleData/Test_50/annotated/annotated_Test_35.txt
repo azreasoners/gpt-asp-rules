@@ -1,0 +1,65 @@
+Several friends went to Cal's Late Night Diner for a bite to eat. Match each person to their drink and entree order, and determine how much each paid for their meal.
+::names
+Angela
+Edmund
+Homer
+Irene
+::prices
+$4
+$5
+$6
+$7
+::drinks
+cream soda
+iced tea
+root beer
+water
+1. Edmund paid 1 dollar less than the one who got the water.
+2. The diner who paid $4 had the iced tea.
+3. Angela paid more than the one who got the cream soda.
+4. The diner who paid $5 was either the one who got the cream soda or the one who got the iced tea.
+5. The four diners were the diner who paid $5, the one who got the iced tea, the one who got the root beer and Irene.
+###
+1 dollar,0,4,4
+4 $,1,5,4
+5 $,3,5,4
+5 $,4,9,4
+Angela,2,1,2
+Edmund,0,1,2
+Irene,4,26,2
+cream_soda,2,10,6
+cream_soda,3,14,6
+diner,1,2,2
+diner,3,2,2
+diner,4,6,2
+diners,4,3,1
+four,4,2,7
+got,0,10,7
+got,2,8,7
+got,3,12,7
+got,3,19,7
+got,4,15,7
+got,4,22,7
+iced_tea,1,9,6
+iced_tea,3,21,6
+iced_tea,4,17,6
+one,0,8,2
+one,2,6,2
+one,3,10,2
+one,3,17,2
+one,4,13,2
+one,4,20,2
+paid,0,2,7
+paid,1,4,7
+paid,2,2,7
+paid,3,4,7
+paid,4,8,7
+root_beer,4,24,6
+water,0,12,6
+
+#######
+sameGroup(0,8,0,12)@negDiff(0,1,0,8,0,4)
+sameGroup(1,2,1,5)@sameGroup(1,2,1,9)
+sameGroup(2,6,2,10)@greaterThan(2,1,2,6,X,X)
+sameGroup(3,2,3,5)@sameGroup(3,10,3,14)@sameGroup(3,17,3,21)@eitherOr12(3,2,3,17,3,10)
+sameGroup(4,6,4,9)@sameGroup(4,13,4,17)@sameGroup(4,20,4,24)@members4(4,13,4,26,4,6,4,20)

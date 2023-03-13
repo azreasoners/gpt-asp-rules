@@ -1,0 +1,22 @@
+The Addison County Amphibian Club met today, and several of its members brought their newest acquisitions. Match each girl to her newest amphibian pet - determine its species and the town and month in which it was purchased.
+::names
+Ida
+Joann
+Nettie
+Ollie
+::months
+January			
+February			
+March			
+April
+::amphibians
+bullfrog			
+horned toad			
+tree frog			
+wood frog	
+
+1. The wood frog was bought 1 month after Nettie's pet.
+2. Ollie's pet is the wood frog.
+3. The tree frog was bought 2 months after Ollie's pet.
+4. Joann's pet is either the wood frog or the tree frog.
+5. Ida's pet is either the animal bought in April or the bullfrog.

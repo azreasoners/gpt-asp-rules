@@ -1,0 +1,5 @@
+Points	Names	Orders
+181 points	Bessie	1st
+184 points	Clara	9th
+187 points	Lillian	3rd
+190 points	Verna	7th

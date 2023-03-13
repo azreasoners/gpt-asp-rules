@@ -1,0 +1,45 @@
+Pelican Bay College is sending a number of graduate students out to sea, each to study a different species of shark. Using only the clues that follow, match each student to his or her ship and shark species, and determine the month in which their project will begin.
+::students
+Eunice
+Felix
+Natasha
+Stacy
+::months
+March
+April
+May
+June
+::ships
+Escape
+Liberty
+Odyssey
+Osprey
+1. Natasha's study starts 2 months after the project on the Odyssey.
+2. Of the assignment on the Liberty and the assignment on the Escape, one is Felix's assignment and the other starts in March.
+3. The study on the Liberty starts 2 months after Eunice's project.
+###
+2 months,0,6,4
+2 months,2,8,4
+Escape,1,12,6
+Eunice,2,10,2
+Felix,1,16,2
+Liberty,1,6,6
+Liberty,2,5,6
+March,1,24,4
+Natasha,0,1,2
+Odyssey,0,12,6
+assignment,1,18,7
+assignment,1,3,2
+assignment,1,9,7
+one,1,14,2
+other,1,21,2
+project,0,9,7
+project,2,12,7
+starts,1,22,7
+study,0,3,2
+study,2,2,2
+
+#######
+referent(0,1,0,3)@posDiff(0,3,0,12,0,6)
+sameGroup(1,3,1,6)@referent(1,14,1,16)@sameGroup(1,21,1,24)@referent22(1,3,1,12,1,14,1,21)
+sameGroup(2,2,2,5)@posDiff(2,2,2,10,2,8)

@@ -1,0 +1,61 @@
+Barry's Deli has a bunch of orders to fill. Help Barry match each customer's deli meat and cheese selections, and determine the price for each sandwich.
+::customers
+Lula
+Ronda
+Sue
+Yolanda
+::prices
+$2
+$3
+$4
+$5
+::cheeses
+cheddar
+havarti
+muenster
+swiss
+1. Ronda's sandwich and the sandwich with havarti cheese are different sandwiches.
+2. Ronda's order costs $5.
+3. Lula's order is either the 3 dollars sandwich or the order that costs 5 dollars.
+4. The sandwich with cheddar cheese costs less than the order with havarti cheese.
+5. Yolanda's sandwich costs 2 dollars less than the order with swiss cheese.
+###
+2 dollars,4,6,4
+3 dollars,2,8,4
+5 $,1,5,4
+5 dollars,2,16,4
+Lula,2,1,2
+Ronda,0,1,2
+Ronda,1,1,2
+Yolanda,4,1,2
+cheddar,3,4,6
+cheese,0,9,6
+cheese,3,13,6
+cheese,3,5,6
+cheese,4,13,6
+costs,1,4,7
+costs,2,14,7
+costs,3,6,7
+costs,4,4,7
+different,0,11,7
+havarti,0,8,6
+havarti,3,12,6
+order,1,3,7
+order,2,12,7
+order,2,3,7
+order,3,10,7
+order,4,10,7
+sandwich,0,3,7
+sandwich,0,6,7
+sandwich,2,9,7
+sandwich,3,2,7
+sandwich,4,3,7
+sandwiches,0,12,7
+swiss,4,12,6
+
+#######
+referent(0,8,0,9)@diffGroup(0,1,0,8)
+sameGroup(1,1,1,5)
+eitherOr12(2,1,2,8,2,16)
+referent(3,4,3,5)@referent(3,12,3,13)@lessThan(3,5,3,13,X,X)
+referent(4,12,4,13)@negDiff(4,1,4,13,4,6)

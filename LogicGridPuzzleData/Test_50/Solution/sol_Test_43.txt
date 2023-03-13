@@ -1,0 +1,5 @@
+winners	prices	butterflies
+otis	90	peacock
+rena	45	peppered
+brandon	60	swallowtail
+phillip	75	torturix

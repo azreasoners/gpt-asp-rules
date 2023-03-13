@@ -1,0 +1,5 @@
+Fares	Customers	Pickup Points
+$6	Della	Fremont Library
+$9	Sara	Smith Tower
+$12	Rosa	Arctic Building
+$15	Neil	Neptune Theatre

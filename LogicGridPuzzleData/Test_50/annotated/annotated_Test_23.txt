@@ -1,0 +1,43 @@
+A series of competitive rowers recently raced to see who among them could be the first to cross the Pacific westwards, from California to Japan. Using only the clues that follow, match each racer to his or her rowing time (in days), and determine their start and end points.
+::durations
+184 days
+195 days
+206 days
+217 days
+::rowers
+Antonio
+Dana
+Hilda
+Walter
+::start points
+Bodega Bay
+Cayucos
+Pescadero
+Pismo Beach
+1. The athlete who traveled for 195 days started from Pescadero.
+2. Of Dana and the athlete who traveled for 184 days, one started from Cayucos and the other started from Bodega Bay .
+3. Hilda finished in 217 days .
+4. Walter finished 11 days before the athlete who started from Cayucos.
+###
+11 days,3,4,2
+184_days,1,9,2
+195_days,0,6,2
+217_days,2,4,2
+Bodega_Bay,1,20,6
+Cayucos,1,14,6
+Cayucos,3,11,6
+Dana,1,2,4
+Hilda,2,1,4
+Pescadero,0,9,6
+Walter,3,1,4
+athlete,0,2,4
+athlete,1,5,4
+athlete,3,7,4
+one,1,11,4
+other,1,17,4
+
+#######
+referent(0,2,0,9)@sameGroup(0,2,0,6)
+sameGroup(1,5,1,9)@sameGroup(1,11,1,14)@sameGroup(1,17,1,20)@referent22(1,2,1,5,1,11,1,17)
+sameGroup(2,1,2,4)
+sameGroup(3,7,3,11)@negDiff(3,1,3,7,3,4)

@@ -1,0 +1,5 @@
+customers	dates	guides
+mr ayers	July 14	hilda 
+mr drake	July 15	jorge 
+mr erickson	July 13	nadine 
+mr gallegos	July 16	vicki

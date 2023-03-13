@@ -1,0 +1,22 @@
+Derrick has spent decades photographing waterfalls all around the world. Determine the height of each waterfall and the year Derrick photographed it, as well as the country in which each is located.
+::names
+Cerbel
+Irskela
+Inawatai
+Oginao
+::heights
+100 ft			
+105 ft			
+110 ft			
+115 ft	
+::countries
+Canada			
+Brazil			
+New Zealand			
+Switzerland
+
+1. Oginao is either the 105 ft tall fall or the 115 ft tall waterfall.
+2. Oginao is 5 ft shorter than Irskela.
+3. The fall in Brazil is either Cerbel or Inawatai.
+4. Inawatai is in New Zealand.
+5. Cerbel is 10 ft shorter than the fall in Canada.

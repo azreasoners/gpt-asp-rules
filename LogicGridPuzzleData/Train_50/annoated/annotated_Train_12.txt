@@ -1,0 +1,62 @@
+A new reality television series aims to follow the pursuits of several gold miners. Using only the clues that follow, match each miner to his claim and location, and determine how many ounces of gold he uncovered this year (in ounces).
+::miners
+Fred Fletcher
+Gil Gonzalez
+Ivan Ingram
+Jack Jacobs
+::ounces
+11
+14
+17
+20
+::claims
+Belle Hart
+Culver Gorge
+Fuller Rise
+York River
+1. The prospector who found 11 ounces of gold was either the prospector working at Fuller Rise or the prospector working at Culver Gorge.
+2. The prospector who found 20 ounces of gold worked at the Fuller Rise claim.
+3. Ivan Ingram found 14 ounces of gold.
+4. The miner working at Belle Hart finished with 6 ounces more gold than Fred Fletcher.
+5. Jack Jacobs finished with somewhat less gold than Gil Gonzalez.
+###
+11 ounces,0,6,4
+14 ounces,2,4,4
+20 ounces,1,6,4
+6 ounces,3,9,4
+Belle_Hart,3,5,6
+Culver_Gorge,0,21,6
+Fred_Fletcher,3,13,2
+Fuller_Rise,0,15,6
+Fuller_Rise,1,12,6
+Gil_Gonzalez,4,8,2
+Ivan_Ingram,2,1,2
+Jack_Jacobs,4,1,2
+claim,1,13,6
+finished,3,6,7
+finished,4,2,7
+found,0,4,7
+found,1,4,7
+found,2,2,7
+gold,0,8,7
+gold,1,8,7
+gold,2,6,7
+gold,3,11,7
+gold,4,6,7
+miner,3,2,2
+prospector,0,12,2
+prospector,0,18,2
+prospector,0,2,2
+prospector,1,2,2
+somewhat,4,4,4
+worked,1,9,7
+working,0,13,7
+working,0,19,7
+working,3,3,7
+
+#######
+sameGroup(0,2,0,6)@sameGroup(0,12,0,15)@sameGroup(0,18,0,21)@eitherOr12(0,2,0,12,0,18)
+sameGroup(1,2,1,13)@sameGroup(1,2,1,6)@referent(1,12,1,13)
+sameGroup(2,1,2,4)
+sameGroup(3,2,3,5)@posDiff(3,2,3,13,3,9)
+negDiff(4,1,4,8,4,4)

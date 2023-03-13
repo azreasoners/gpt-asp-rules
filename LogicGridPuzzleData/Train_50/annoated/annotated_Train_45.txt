@@ -1,0 +1,58 @@
+Rowena, the head librarian at the Juniper Hills Public Library, has to make several calls today to inquire about overdue library books. Using only the clues that follow, match each book to its due date and borrower, and determine the author of each title.
+::borrowers
+Cory
+Rosa
+Sherrie
+Vicki
+::due dates
+September 1
+September 8
+September 15
+September 22
+::titles
+Dancing Well
+Heaven's Seal
+Stars Below
+Time to Burn
+1. The four books are Rosa's book, the book due on September 22, Dancing Well and the book due on September 15.
+2. Heaven's Seal is either Vicki's book or the book due on September 8.
+3. Of Heaven's Seal and the title due on September 22, one was taken out by Cory and the other was taken out by Vicki.
+4. Sherrie's book was due 2 weeks before Stars Below.
+###
+2 weeks,3,7,4
+Cory,2,15,2
+Dancing_Well,0,15,6
+Heaven_s_Seal,1,1,6
+Heaven_s_Seal,2,2,6
+Rosa,0,5,2
+September_15,0,21,4
+September_22,0,13,4
+September_22,2,8,4
+September_8,1,12,4
+Sherrie,3,1,2
+Stars_Below,3,9,6
+Vicki,1,4,2
+Vicki,2,23,2
+book,0,10,6
+book,0,18,6
+book,0,7,6
+book,1,6,6
+book,1,9,6
+book,3,3,6
+books,0,3,5
+due,0,11,7
+due,0,19,7
+due,1,10,7
+due,2,6,7
+due,3,5,7
+four,0,2,7
+one,2,10,6
+other,2,18,6
+taken,2,12,7
+taken,2,20,7
+title,2,5,6
+#######
+sameGroup(0,5,0,7)@sameGroup(0,10,0,13)@sameGroup(0,18,0,21)@members4(0,5,0,10,0,15,0,18)
+sameGroup(1,9,1,12)@sameGroup(1,4,1,6)@eitherOr12(1,1,1,4,1,9)
+sameGroup(2,10,2,15)@sameGroup(2,5,2,8)@sameGroup(2,18,2,23)@referent22(2,2,2,5,2,10,2,18)
+sameGroup(3,1,3,3)@negDiff(3,3,3,9,3,7)

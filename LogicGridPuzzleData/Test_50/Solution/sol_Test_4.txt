@@ -1,0 +1,6 @@
+
+Wins	Boxers	Losses
+24	Irma	4
+27	Jane	12
+30	Edna Easton	8
+33	Sonia	2

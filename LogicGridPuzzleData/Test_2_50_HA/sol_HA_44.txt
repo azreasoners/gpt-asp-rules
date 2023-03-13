@@ -1,0 +1,5 @@
+Shoe Sizes	Customers	Brands
+4	Estelle	Cormano
+5	Whitney	Manzarita
+6	Lucia	Williford
+7	Paulette	Schtillet

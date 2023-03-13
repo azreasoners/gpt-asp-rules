@@ -1,0 +1,22 @@
+The state fair dancing competition winners have just been announced! Match each dancer to her chosen dance style and final score, and determine the order in which each performed.
+::names
+Bessie
+Clara
+Lillian
+Verna
+::points
+181 points			
+184 points			
+187 points			
+190 points	
+::orders
+1st			
+3rd			
+7th			
+9th			
+
+
+1. Lillian scored 6 points higher than Bessie.
+2. The dancer who performed first scored 3 points lower than the dancer who performed ninth.
+3. Verna scored somewhat higher than the person who danced third.
+4. The dancer who performed seventh scored 6 points higher than the person who danced ninth.

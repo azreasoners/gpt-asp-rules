@@ -1,0 +1,5 @@
+Sq Footage	Customers	Prices
+95 sq ft	Whitehead	$29,000
+110 sq ft	Kirby	$35,000
+125 sq ft	Ewing	$32,250
+140 sq ft	Nielsen	$27,500

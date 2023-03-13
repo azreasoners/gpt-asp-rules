@@ -1,0 +1,5 @@
+teas	prices	temparatures
+jin xuan	$5	190
+pouchong	$6	195
+red robe	$7	200
+ali shan	$4	215

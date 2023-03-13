@@ -1,0 +1,23 @@
+The race for a new understanding of particle physics is on, and several new particle accelerators are scheduled to be built over the next ten years. Match each new accelerator to its location and head scientist, and determine the year each is scheduled to go on-line.
+::names
+Bale-Hahn SSC
+Egert Facility
+Lectra 4C
+Zynga Complex
+::years
+2016			
+2017			
+2018			
+2019
+::scientists
+Dr. Alvarez			
+Dr. Morgan			
+Dr. Noble			
+Dr. Salinas
+
+1. The facility scheduled to go online in 2019 is either the Egert Facility or the project headed by Dr. Alvarez.
+2. The project headed by Dr. Morgan is either the Zynga Complex or the facility scheduled to go online in 2019.
+3. The project headed by Dr. Salinas will go online 1 year before the Egert Facility.
+4. The project headed by Dr. Alvarez will go online sometime after the project headed by Dr. Noble.
+5. The project headed by Dr. Salinas will go online sometime before the project headed by Dr. Noble.
+6. The project headed by Dr. Morgan will go online sometime after the Bale-Hahn SSC.
