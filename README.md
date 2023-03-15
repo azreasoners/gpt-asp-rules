@@ -8,6 +8,9 @@ conda activate gpt3-r
 conda install -c conda-forge openai clingo=5.6 tqdm xlsxwriter
 ```
 
+## Preparation
+Include your OpenAI API key in line 2 of `api_keys.py`.
+
 ## How to run
 Execute the following codes to evaluate on 5 puzzles in the training data of 150-puzzle dataset.
 ```

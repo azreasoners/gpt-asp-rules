@@ -36,5 +36,16 @@ def data_gen(dataset_name='test', num_data=50):
                 constants += category_constants[0] + ': ' + '; '.join(category_constants[1:]) + '.\n'
         with open(solution_path.replace('[i]', i), 'r') as f:
             solution = f.read()
-        puzzles.append((story.strip() + ' ' + domain_hint, constraints.strip(), constants.strip(), solution.strip()))
+        puzzles.append([story.strip() + ' ' + domain_hint, constraints.strip(), constants.strip(), solution.strip()])
+        # puzzles.append([story.strip(), constraints.strip(), constants.strip(), solution.strip()])
+    data_correction(dataset_name, puzzles)
     return puzzles
+
+# remove the wrong category discussed in story
+def data_correction(dataset_name, puzzles):
+    if dataset_name == 'test':
+        puzzles[11][0] = puzzles[11][0].replace('budget, ', '')
+        puzzles[19][0] = puzzles[19][0]\
+            .replace(', or featured people who played the same position', '')\
+            .replace(''', and determine the player's position''', '')
+        puzzles[48][0] = puzzles[48][0].replace('budget, ', '')

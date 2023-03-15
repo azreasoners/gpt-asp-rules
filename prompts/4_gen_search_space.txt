@@ -1,20 +1,6 @@
 Given some categorized constants in the form "category: constant_1; constant_2; ...; constant_n" and some predicates about the relation among different categories of constants, write ASP (Answer Set Programming) rules to generate the search space of possible relations.
 
 Constants:
-number: 1; 2; 3; 4; 5; 6; 7; 8.
-
-Predicates:
-% The categories include number. Note that we must use different variables in each predicate.
-% We assign a queen at row N1 and column N2, where N1 belongs to number and N2 belongs to number.
-assign(N1, N2)
-
-ASP Rules:
-% Define the constants in each category.
-number(1; 2; 3; 4; 5; 6; 7; 8).
-% For each row N1, there is exactly 1 queen assigned at some column N2.
-{assign(N1, N2): number(N2)}=1 :- number(N1).
-
-Constants:
 employee: "Bonita"; "Yvette"; "Tabitha".
 price: 225; 275; 325.
 wood_type: "ash"; "poplar"; "sandalwood".
