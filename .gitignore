@@ -1,5 +1,4 @@
 *.xlsx
-api_keys.py
 archive/*
 
 # Byte-compiled / optimized / DLL files
