@@ -1,4 +1,4 @@
-Mayor Price has promised to get the streets of Victorville back in ship-shape condition this year with a series of road improvement projects. Using only the clues that follow, determine each project's location, budget, manager and starting month.
+Mayor Price has promised to get the streets of Victorville back in ship-shape condition this year with a series of road improvement projects. Using only the clues that follow, determine each project's location, manager and starting month.
 ::months
 April
 May

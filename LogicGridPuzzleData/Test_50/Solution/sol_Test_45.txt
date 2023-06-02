@@ -2,4 +2,4 @@ breads	times	customer
 rye bread	7:00am	felicia 
 pumpernickel	8:30am	isabel 
 flatbread	7:30am	ora 
-wheat bread	8:30am	tricia
+wheat bread	8:00am	tricia
