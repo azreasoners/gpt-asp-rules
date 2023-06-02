@@ -12,7 +12,7 @@ def main(args):
         'paraphrasing': 'prompts/5_paraphrasing.txt',
         'constraints': 'prompts/6_gen_constraints.txt',
     }
-    prefix = 'chatgpt_split_' if args.engine == 'gpt-3.5-turbo' else ''
+    prefix = 'gpt_split_' + args.engine + '_'
     puzzle_pipeline.path_cache = {k: f'caches/{prefix}{k}.json' for k in puzzle_pipeline.path_prompt}
     puzzle_pipeline.load_prompt()
     puzzle_pipeline.load_cache()
@@ -63,11 +63,16 @@ def main(args):
         if len(answer_sets) != 1:
             incorrect_indices.append(i)
 
+        if len(answer_sets) == 1:
+            filtered_set = [fact for fact in answer_sets[0] if ',' in fact]
+            prediction = '\n'.join(filtered_set)
+        else:
+            prediction = ''
         # record all information/mistakes
         if len(answer_sets) != 1 or args.debug:
             puzzle_pipeline.mistakes.append((
                 story, constraints, constraints_paraphrased, constants, constants_formatted,
-                predicates, rules_search_space, rules_constraints, rules_all, len(answer_sets),
+                predicates, rules_search_space, rules_constraints, rules_all, len(answer_sets), prediction,
                 solution
             ))
 
@@ -75,7 +80,7 @@ def main(args):
     print('Incorrect indices: ', incorrect_indices)
     cols = [
         'story', 'constraints', 'constraints_paraphrased', 'constants', 'constants_formatted',
-        'predicates', 'rules_search_space', 'rules_constraints', 'rules_all', '#answer_sets',
+        'predicates', 'rules_search_space', 'rules_constraints', 'rules_all', '#answer_sets', 'prediction',
         'solution'
     ]
     puzzle_pipeline.save_mistakes(cols)
@@ -89,7 +94,7 @@ if __name__ == '__main__':
     parser.add_argument('--step', default=7, type=int,
         help='the program will run step 1, 2, ... until this specified number')
     parser.add_argument('--engine', default='text-davinci-003', type=str,
-        help='the engine name in \{gpt-3.5-turbo, text-davinci-003, text-davinci-002, text-curie-001\}')
+        help='the engine name in \{gpt-4, text-davinci-003, text-davinci-002, text-curie-001\}')
     parser.add_argument('--temperature', default=0., type=float,
         help='the temperature for the GPT-3 model')
     parser.add_argument('--max_tokens', default=1500, type=int,

@@ -74,13 +74,16 @@ class Pipeline:
         # generate and cache the response in cache if it's not cached before
         if prompt not in self.cache[kind]:
             try:
-                if self.engine == 'gpt-3.5-turbo':
+                if self.engine == 'gpt-4':
                     messages = [{'role': 'user', 'content': prompt}]
-                    self.cache[kind][prompt] = openai.ChatCompletion.create(
-                        messages=messages,
-                        model="gpt-3.5-turbo",
-                        temperature=self.temperature,
-                        max_tokens=self.max_tokens)
+                    try:
+                        self.cache[kind][prompt] = openai.ChatCompletion.create(
+                            messages=messages,
+                            model="gpt-4",
+                            temperature=self.temperature,
+                            max_tokens=self.max_tokens)
+                    except:
+                        print('GPT error.')
                 else:
                     self.cache[kind][prompt] = openai.Completion.create(
                         prompt=prompt,
@@ -92,7 +95,7 @@ class Pipeline:
                 print(e)
                 breakpoint()
                 self.cache[kind][prompt] = None
-        if self.engine == 'gpt-3.5-turbo':
+        if self.engine == 'gpt-4':
             return self.cache[kind][prompt]['choices'][0]['message']['content'].strip()
         return self.cache[kind][prompt]['choices'][0]['text'].strip()
 
@@ -105,7 +108,7 @@ class Pipeline:
         # generate and cache the response in cache if it's not cached before
         if prompt not in self.cache[kind]:
             try:
-                if self.engine == 'gpt-3.5-turbo':
+                if self.engine == 'gpt-4':
                     # split prompt into different messages
                     general, ex1, ex2, ex3 = prompt.split('\n\nProblem ')
                     ex1, response1 = ex1.split('\n\nConstraints:\n')
@@ -125,7 +128,7 @@ class Pipeline:
                         ]
                     self.cache[kind][prompt] = openai.ChatCompletion.create(
                         messages=messages,
-                        model="gpt-3.5-turbo",
+                        model="gpt-4",
                         temperature=self.temperature,
                         max_tokens=self.max_tokens)
                 else:
@@ -139,7 +142,7 @@ class Pipeline:
                 print(e)
                 breakpoint()
                 self.cache[kind][prompt] = None
-        if self.engine == 'gpt-3.5-turbo':
+        if self.engine == 'gpt-4':
             return self.cache[kind][prompt]['choices'][0]['message']['content'].strip()
         return self.cache[kind][prompt]['choices'][0]['text'].strip()
 
