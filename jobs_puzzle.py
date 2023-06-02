@@ -320,8 +320,7 @@ if __name__ == '__main__':
     
     all_rules = generation_rules + '\n\n' + constraints
     
-    
-    #breakpoint()
+    print(all_rules)
     
     
 
