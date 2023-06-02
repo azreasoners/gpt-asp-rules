@@ -36,5 +36,6 @@ Constrant Generation (semantic):
 -	Operator: A wrong operator such as “<” in place of “>” or “+” in place of “-“.
 -	Incorrect disjunction in the head: Associated with rules that have a disjunction in the head, where at least one of the elements of the disjunction should be in the body of the rule instead.
 -	Other: A generic semantic error which does not fit into any prior pattern.
+
 Constraint Generation (syntax): A variable name is wrong or two variables are out of order.
 Constant Formatting: A constant has double quotes around it when it should not.
