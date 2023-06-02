@@ -25,3 +25,15 @@ python main.py --debug --dataset_name test --num 5 --engine gpt-3.5-turbo
 
 ## How to read the results
 - The results of every step are stored in the file `mistakes.xlsx` where each row denotes the provided information and different predictions (at different steps) for a puzzle.
+- In `error_analysis`, you can view Excel files which track the errors and fixes for GPT-3 and GPT-4 on the logic puzzles test set. The errors are highlighted in red, and the fixes in blue. We categorize the errors and their subtypes as follows:
+
+Paraphrase:
+-	Either/or: about conversion of the either/or sentence being paraphrased incorrectly.
+-	All different: about conversion of the “a,b,c, and d are different” sentence types being paraphrased incorrectly.
+Constrant Generation (semantic): 2
+-	Comparison between times: to do with a comparison of time being incorrect.
+-	Operator: A wrong operator such as “<” in place of “>” or “+” in place of “-“.
+-	Incorrect disjunction in the head: Associated with rules that have a disjunction in the head, where at least one of the elements of the disjunction should be in the body of the rule instead.
+-	Other: A generic semantic error which does not fit into any prior pattern.
+Constraint Generation (syntax): A variable name is wrong or two variables are out of order.
+Constant Formatting: A constant has double quotes around it when it should not.
