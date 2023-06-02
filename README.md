@@ -24,7 +24,7 @@ python main.py --debug --dataset_name test --num 5 --engine gpt-4
 ```
 To do the Sudoku and the Jobs Puzzle, one can run:
 ```python sudoku.py --engine text-davinci-003
-python jobs_puzzle.py --engine gpt-4`
+python jobs_puzzle.py --engine gpt-4
 ```
 ## How to read the results
 - The results of every step are stored in the file `mistakes.xlsx` where each row denotes the provided information and different predictions (at different steps) for a puzzle.
