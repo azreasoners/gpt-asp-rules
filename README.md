@@ -1,5 +1,5 @@
 # Introduction
-This is the codes to use GPT-3 to generate ASP rules from logic puzzles.
+This is the code to use GPT-3/GPT-4 to generate ASP rules from logic puzzles.
 
 ## Installation
 ```
