@@ -1,5 +1,5 @@
 # GPT + ASP
-This is the implementation of [Leveraging Large Language Models to Generate Answer Set Programs]([https://www.ijcai.org/proceedings/2020/0243.pdf](https://proceedings.kr.org/2023/37/kr2023-0037-ishay-et-al.pdf)).  
+This is the implementation of [Leveraging Large Language Models to Generate Answer Set Programs](https://proceedings.kr.org/2023/37/kr2023-0037-ishay-et-al.pdf).  
 [Lab page](https://azreasoners.github.io/ARG-webpage/)
 
 ## Installation
