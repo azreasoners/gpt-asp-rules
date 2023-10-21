@@ -1,5 +1,6 @@
-# Introduction
-This is the code to use GPT-3/GPT-4 to generate ASP rules from logic puzzles.
+# GPT + ASP
+This is the implementation of [Leveraging Large Language Models to Generate Answer Set Programs]([https://www.ijcai.org/proceedings/2020/0243.pdf](https://proceedings.kr.org/2023/37/kr2023-0037-ishay-et-al.pdf)).  
+[Lab page](https://azreasoners.github.io/ARG-webpage/)
 
 ## Installation
 ```
@@ -43,3 +44,18 @@ Constrant Generation (semantic):
 
 Constraint Generation (syntax): A variable name is wrong or two variables are out of order.  
 Constant Formatting: A constant has double quotes around it when it should not.
+
+## Citation
+Please cite our paper as:
+```
+@inproceedings{KR2023-37,
+    title     = {{Leveraging Large Language Models to Generate Answer Set Programs}},
+    author    = {Ishay, Adam and Yang, Zhun and Lee, Joohyung},
+    booktitle = {{Proceedings of the 20th International Conference on Principles of Knowledge Representation and Reasoning}},
+    pages     = {374--383},
+    year      = {2023},
+    month     = {8},
+    doi       = {10.24963/kr.2023/37},
+    url       = {https://doi.org/10.24963/kr.2023/37},
+  }
+```
